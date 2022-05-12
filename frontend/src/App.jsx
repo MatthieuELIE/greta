@@ -13,10 +13,10 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <main className="min-h-screen bg-zinc-600">
-          <Home />
+       
         
-        </main>
+        
+       
         <main className="min-h-screen">
           <Routes>
             <Route path="/" element={<Home />} />
