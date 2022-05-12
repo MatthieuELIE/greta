@@ -110,7 +110,7 @@ export default function Defis() {
             className="form-check-label pl-8 inline-block text-gray-800"
             htmlFor="quest"
           >
-            Ne pas utiliser sa voiture (2kg/CO2)
+            Ne pas utiliser sa voiture
           </label>
         </div>
 
@@ -127,7 +127,7 @@ export default function Defis() {
             className="form-check-label pl-8 inline-block text-gray-800"
             htmlFor="quest"
           >
-            Ne pas acheter de produits emballés (0.5kg/CO2)
+            Ne pas acheter de produits emballés
           </label>
         </div>
 
@@ -144,7 +144,7 @@ export default function Defis() {
             className="form-check-label pl-8 inline-block text-gray-800"
             htmlFor="quest"
           >
-            Éviter d’avoir un enfant dans la journée (35.000kg/CO2)
+            Éviter d’avoir un enfant dans la journée
           </label>
         </div>
       </div>
