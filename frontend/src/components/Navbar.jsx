@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
@@ -9,15 +10,19 @@ export default function Navbar() {
                 </h1>
             </div>
             <div className="flex flex-row justify-left">
-                <div className="mx-4 py-4 text-zinc-700 hover:cursor-pointer text-4xl text-roboto font-[900] hover:text-emerald-400">
-                    <h2>Accueil</h2>
-                </div>
+                <Link to="/">
+                    <div className="mx-4 py-4 text-zinc-700 hover:cursor-pointer text-4xl text-roboto font-[900] hover:text-emerald-400">
+                        <h2>Accueil</h2>
+                    </div>
+                </Link>
                 <div className="mx-2 py-4 text-zinc-700 text-4xl text-roboto font-[400]">
                     <h2>|</h2>
                 </div>
-                <div className="mx-4 py-4 text-zinc-700 hover:cursor-pointer text-4xl text-roboto font-[900] hover:text-lime-400">
-                    <h2>Ma progression</h2>
-                </div>
+                <Link to="/profil">
+                    <div className="mx-4 py-4 text-zinc-700 hover:cursor-pointer text-4xl text-roboto font-[900] hover:text-lime-400">
+                        <h2>Ma progression</h2>
+                    </div>
+                </Link>
             </div>
         </div>
     );

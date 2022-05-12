@@ -1,14 +1,9 @@
-export const weeklyQuest = [
-  "Ne pas manger de viande pendant la semaine",
-  "Aller au travail en vélo",
-  "Limiter son utilisation du numérique à une heure par jour",
-  "Passe une semaine sans thé, ni café, ni chocolat",
-];
+export const weeklyQuest = ["Ne pas manger de viande"];
 
 export const dailyQuest = [
-  "Ne pas utiliser sa voiture aujourd’hui",
-  "Ne pas acheter de produits emballés aujourd’hui",
-  "Éviter d’avoir un enfant dans la journée",
+  "Ne pas utiliser sa voiture (2kg/CO2)",
+  "Ne pas acheter de produits emballés (0.5kg/CO2)",
+  "Éviter d’avoir un enfant dans la journée (35.000kg/CO2)",
 ];
 
 export const randomQuest = [
