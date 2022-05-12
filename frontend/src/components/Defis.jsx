@@ -18,6 +18,8 @@ export default function Defis() {
   const [randoms, setRandoms] = useState([]);
   const [randomsChecked, setRandomsChecked] = useState(false);
 
+  const progress = 30;
+
   useEffect(() => {
     setWeekly(getRandomResources(weeklyQuest, 1));
     setDailies(dailyQuest);
@@ -67,10 +69,10 @@ export default function Defis() {
 
   return (
     <>
-
       <h1 className="text-3xl my-4">{count} kg/CO2 économisés</h1>
       <div className="mt-4 bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
-        <h2 className="text-3xl font-[700] text-left ml-8 pb-1">Quête de la semaine 🌿
+        <h2 className="text-3xl font-[700] text-left ml-8 pb-1">
+          Quête de la semaine 🌿
         </h2>
         <div className="flex flex-row mb-4 mt-1">
           <p className="text-left ml-8 text-2xl font-[200]">3 jours restant</p>
@@ -156,7 +158,9 @@ export default function Defis() {
             actualiser
           </button>
         </div>
-        <h2 className="text-roboto text-3xl font-[700] text-left ml-8">Une quête de plus ? 🪴</h2>
+        <h2 className="text-roboto text-3xl font-[700] text-left ml-8">
+          Une quête de plus ? 🪴
+        </h2>
         <div className="mt-4 text-left mx-8 text-xl font-[300]">
           <div>
             {randoms.map((quest) => (
