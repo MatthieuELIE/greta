@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import Login from "./Login";
 
 export default function Navbar() {
     return (
@@ -8,6 +9,7 @@ export default function Navbar() {
                 <h1 className="text-6xl text-knw text-gradient drop-shadow-sm">
                     Greenta
                 </h1>
+                <Login />
             </div>
             <div className="flex flex-row justify-left w-[90%]">
                 <Link to="/">
