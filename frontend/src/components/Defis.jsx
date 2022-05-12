@@ -9,11 +9,10 @@ import {
 } from "../services/api";
 
 export default function Defis() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(36);
   const [weekly, setWeekly] = useState([]);
-  const [weeklyChecked, setWeeklyChecked] = useState(false);
   const [dailies, setDailies] = useState([]);
-  const [dailiesChecked, setDailiesChecked] = useState(false);
+  const [questChecked, setQuestChecked] = useState(false);
   const [randoms, setRandoms] = useState([]);
   const [randomsChecked, setRandomsChecked] = useState(false);
 
@@ -23,35 +22,27 @@ export default function Defis() {
     setRandoms(getRandomResources(randomQuest, 1));
   }, []);
 
-  const handleWeeklyDone = () => {
-    if (!weeklyChecked === true) {
-      setCount((count) => count + 70);
-    }
-    if (!weeklyChecked === false) {
-      setCount((count) => count - 70);
-    }
-  };
-
   const handleDailiesDone = () => {
-    if (!dailiesChecked === true) {
-      setCount((count) => count + 10);
-    }
-    if (!dailiesChecked === false) {
-      setCount((count) => count - 10);
-    }
-  };
-
-  const handleRandomsDone = () => {
-    if (!randomsChecked === true) {
-      setCount((count) => count + 5);
-    }
-    if (!randomsChecked === false) {
-      setCount((count) => count - 5);
-    }
-  };
+      if (!questChecked === true) {
+          setCount((count) => count + 10);
+        }
+        if (!questChecked === false) {
+            setCount((count) => count - 10);
+        }
+    };
+    
+    const handleRandomsDone = () => {
+      if (!randomsChecked === true) {
+        setCount((count) => count + 5);
+      }
+      if (!randomsChecked === false) {
+        setCount((count) => count - 5);
+      }
+    };
 
   return (
     <>
+    <h1 className="text-3xl my-4">{count} kg/CO2 économisés</h1>
       <div className="bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
         <h2 className="text-3xl font-[700] text-left ml-8 pb-1">Quête de la semaine 🌿</h2>
         <p className="text-left ml-8 text-2xl font-[200] mb-4">3 jours restant</p>
@@ -74,12 +65,12 @@ export default function Defis() {
               type="checkbox"
               value=""
               id={`flex${quest}`}
-              onClick={() => setDailyChecked(!dailiesChecked)}
-              onChange={handleDoneDailies}
+              onClick={(quest) => setQuestChecked(!questChecked)}
+              onChange={handleDailiesDone}
             />
             <label
-              className="inline-block text-gray-800"
-              htmlFor={`flex${quest}`}
+              className="form-check-label inline-block text-gray-800"
+              htmlFor={quest}
             >
               {quest}
             </label>
@@ -95,13 +86,13 @@ export default function Defis() {
                 <input
                   className="absolute h-6 w-6 my-10 rounded-sm transition duration-200 mt-1 align-top mr-2 cursor-pointer"
                   type="checkbox"
-                  value=""
+                  value="quest"
                   id={`flex${quest}`}
                   onClick={() => setRandomsChecked(!randomsChecked)}
-                  onChange={handleDoneRandoms}
+                  onChange={handleRandomsDone}
                 />
                 <label
-                  className="pl-8 inline-block text-zinc-800"
+                  className="form-check-label pl-8 inline-block text-zinc-800"
                   htmlFor={`flex${quest}`}
                 >
                   {quest}
