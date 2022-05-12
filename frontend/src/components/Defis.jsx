@@ -8,15 +8,46 @@ import {
 } from "../services/api";
 
 export default function Defis() {
+  const [count, setCount] = useState(0);
   const [weekly, setWeekly] = useState([]);
+  const [weeklyChecked, setWeeklyChecked] = useState(false);
   const [dailies, setDailies] = useState([]);
+  const [dailiesChecked, setDailiesChecked] = useState(false);
   const [randoms, setRandoms] = useState([]);
+  const [randomsChecked, setRandomsChecked] = useState(false);
 
   useEffect(() => {
     setWeekly(getRandomResources(weeklyQuest, 1));
     setDailies(getRandomResources(dailyQuest, 3));
     setRandoms(getRandomResources(randomQuest, 5));
   }, []);
+
+  const handleDoneQuest = () => {
+    if (!weeklyChecked === true) {
+      setCount((count) => count + 70);
+    }
+    if (!weeklyChecked === false) {
+      setCount((count) => count - 70);
+    }
+  };
+
+  const handleDoneDailies = () => {
+    if (!dailiesChecked === true) {
+      setCount((count) => count + 10);
+    }
+    if (!dailiesChecked === false) {
+      setCount((count) => count - 10);
+    }
+  };
+
+  const handleDoneRandoms = () => {
+    if (!randomsChecked === true) {
+      setCount((count) => count + 5);
+    }
+    if (!randomsChecked === false) {
+      setCount((count) => count - 5);
+    }
+  };
 
   return (
     <>
@@ -58,12 +89,14 @@ export default function Defis() {
       <div className="flex justify-center m-4 text-left mb-16 ml-16">
         <div>
           {randoms.map((quest) => (
-            <div className="form-check">
+            <div key={randoms.id} className="form-check">
               <input
                 className="form-check-input h-4 w-4 rounded-sm transition duration-200 mt-1 align-top mr-2 cursor-pointer"
                 type="checkbox"
                 value=""
                 id={`flex${quest}`}
+                onClick={() => setRandomsChecked(!randomsChecked)}
+                onChange={handleDoneRandoms}
               />
               <label
                 className="form-check-label inline-block text-gray-800"

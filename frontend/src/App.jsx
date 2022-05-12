@@ -4,6 +4,8 @@ import Navbar from "@components/Navbar";
 import "./App.css";
 import "./index.css";
 
+import Profils from "@pages/Profils";
+
 function App() {
   return (
     <div className="App">
