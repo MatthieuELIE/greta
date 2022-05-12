@@ -5,13 +5,12 @@ import React from "react";
 import Footer from "@components/Footer";
 import FriendsBoard from "@pages/FriendsBoard";
 import AchievementsPage from "@pages/AchievementsPage";
-import FootPrint from "@pages/FootPrint";
+import Profils from "@pages/Profils";
+import Impact from "@pages/Impact";
+import Reco from "@pages/Reco";
 
 import "./App.css";
 import "./index.css";
-
-import Profils from "@pages/Profils";
-import Impact from "@pages/impact";
 
 function App() {
   return (
@@ -24,8 +23,8 @@ function App() {
             <Route path="/friendsboard" element={<FriendsBoard />} />
             <Route path="/impact" element={<Impact />} />
             <Route path="/achievements" element={<AchievementsPage />} />
-            <Route path="/footprint" element={<FootPrint />} />
             <Route path="/profil" element={<Profils />} />
+            <Route path="/reco" element={<Reco />} />
           </Routes>
         </main>
         <Footer />
