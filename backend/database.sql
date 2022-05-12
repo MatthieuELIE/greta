@@ -23,11 +23,12 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `item`
+-- Structure de la table `user`
 --
+DROP TABLE IF EXISTS `users`;
 
 CREATE TABLE `users` (
-  `id` INT(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  `id` INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
   `username` VARCHAR(255) NOT NULL,
   `password` VARCHAR(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
@@ -35,10 +36,35 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`username`, `password`) VALUES
 ('admin', 'admin');
 
+--
+-- Structure de la table `daily`
+--
+
+DROP TABLE IF EXISTS `daily`;
 
 CREATE TABLE `daily` (
-  `id` INT(11) PRIMARY KEY AUTO_INCREMENT NOT NULL,
-  `objective` VARCHAR(255) NOT NULL,
+  `id` INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  `objectives` VARCHAR(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+--
+-- Structure de la table `weekly`
+--
 
+DROP TABLE IF EXISTS `weekly`;
+
+CREATE TABLE `weekly` (
+  `id` INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  `objectives` VARCHAR(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Structure de la table `random`
+--
+
+DROP TABLE IF EXISTS `random`;
+
+CREATE TABLE `random` (
+  `id` INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  `objectives` VARCHAR(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
