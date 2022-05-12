@@ -40,8 +40,8 @@ export default function FriendBoard() {
   console.log(users);
   return (
     <div>
-      <h1 className="my-8 text-center font-bold text-6xl">
-        Friend' ScoreBoard
+      <h1 className="my-8 text-left ml-12 text-zinc-800 text-4xl text-roboto font-[400]">
+        Mes amis
       </h1>
       <div className="flex flex-col w-screen items-center justify-center">
         {users.map((user) => (
