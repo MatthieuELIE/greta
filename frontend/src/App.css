@@ -46,6 +46,7 @@ code {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -58,4 +59,17 @@ button {
   display: flex;
   align-items: flex-start;
   flex-direction: column;
+
+.text-knw {
+  font-family: "Knewave", cursive;
+}
+
+.text-mada {
+  font-family: "Mada", sans-serif;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #34d399 40%, #a3e635 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

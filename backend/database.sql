@@ -23,41 +23,48 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Structure de la table `item`
+-- Structure de la table `user`
+--
+DROP TABLE IF EXISTS `users`;
+
+CREATE TABLE `users` (
+  `id` INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  `username` VARCHAR(255) NOT NULL,
+  `password` VARCHAR(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+INSERT INTO `users` (`username`, `password`) VALUES
+('admin', 'admin');
+
+--
+-- Structure de la table `daily`
 --
 
-CREATE TABLE `item` (
-  `id` int(11) UNSIGNED NOT NULL,
-  `title` varchar(255) NOT NULL
+DROP TABLE IF EXISTS `daily`;
+
+CREATE TABLE `daily` (
+  `id` INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  `objectives` VARCHAR(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Contenu de la table `item`
+-- Structure de la table `weekly`
 --
 
-INSERT INTO `item` (`id`, `title`) VALUES
-(1, 'Stuff'),
-(2, 'Doodads');
+DROP TABLE IF EXISTS `weekly`;
+
+CREATE TABLE `weekly` (
+  `id` INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  `objectives` VARCHAR(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Index pour les tables exportées
+-- Structure de la table `random`
 --
 
---
--- Index pour la table `item`
---
-ALTER TABLE `item`
-  ADD PRIMARY KEY (`id`);
+DROP TABLE IF EXISTS `random`;
 
---
--- AUTO_INCREMENT pour les tables exportées
---
-
---
--- AUTO_INCREMENT pour la table `item`
---
-ALTER TABLE `item`
-  MODIFY `id` int(11) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+CREATE TABLE `random` (
+  `id` INT PRIMARY KEY AUTO_INCREMENT NOT NULL,
+  `objectives` VARCHAR(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;

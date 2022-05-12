@@ -1,3 +1,11 @@
+import Defis from "@components/Defis"
+
+
 export default function Home() {
-  return <header className="App-header" />;
+  return (
+    <div className="h-full">
+      <p className="text-white pt-12">hello</p>
+      <Defis />
+    </div>
+  );
 }

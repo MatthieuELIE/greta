@@ -1,19 +1,18 @@
 import Home from "@pages/Home";
-import { Route, Routes, BrowserRouter } from "react-router-dom";
+import Navbar from "@components/Navbar";
+
 import "./App.css";
+import "./index.css";
 
 import Profils from "@pages/Profils";
 
 function App() {
   return (
     <div className="App">
-      <Home />
-
-      <BrowserRouter>
-        <Routes>
-          <Route path="/Profils" element={<Profils />} />
-        </Routes>
-      </BrowserRouter>
+      <Navbar />
+      <main className="min-h-screen bg-zinc-600">
+        <Home />
+      </main>
     </div>
   );
 }
