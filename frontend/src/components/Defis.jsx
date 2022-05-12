@@ -18,8 +18,6 @@ export default function Defis() {
   const [randoms, setRandoms] = useState([]);
   const [randomsChecked, setRandomsChecked] = useState(false);
 
-  const progress = 30;
-
   useEffect(() => {
     setWeekly(getRandomResources(weeklyQuest, 1));
     setDailies(dailyQuest);
@@ -69,15 +67,8 @@ export default function Defis() {
 
   return (
     <>
-<<<<<<< HEAD
-      <h1 className="text-3xl my-4">{count} kg/CO2 économisés</h1>
-      <div className="mt-4 bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
-        <h2 className="text-3xl font-[700] text-left ml-8 pb-1">
-          Quête de la semaine 🌿
-=======
       <div className="mt-4 bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
         <h2 className="text-3xl font-[700] text-left ml-8 pb-1 text-zinc-800">Quête de la semaine 🌿
->>>>>>> 5ac8a29 (change)
         </h2>
         <div className="flex flex-row mb-4 mt-1">
           <p className="text-left ml-8 text-2xl font-[200] text-zinc-800">3 jours restant</p>
@@ -162,13 +153,7 @@ export default function Defis() {
             actualiser
           </button>
         </div>
-<<<<<<< HEAD
-        <h2 className="text-roboto text-3xl font-[700] text-left ml-8">
-          Une quête de plus ? 🪴
-        </h2>
-=======
         <h2 className="text-roboto text-3xl font-[700] text-left ml-8 text-zinc-800">Une quête de plus ? 🪴</h2>
->>>>>>> 5ac8a29 (change)
         <div className="mt-4 text-left mx-8 text-xl font-[300]">
           <div>
             {randoms.map((quest) => (
@@ -192,7 +177,7 @@ export default function Defis() {
           </div>
         </div>
       </div>
-      <h1 className="fixed top-4 right-4 backdrop-blur-xl rounded-3xl text-zinc-800 text-roboto font-[400] p-2 text-xl z-50 drop-shadow-md">CO2 économisé : <br></br><span className="font-[900] text-4xl text-emerald-400">{count}</span> kg</h1>
+      <h1 className="fixed top-4 right-4 backdrop-blur-xl rounded-3xl text-zinc-800 text-roboto p-2 text-xl z-50 drop-shadow-md">CO2 économisé : <br></br><span className="font-[900] text-4xl text-emerald-400">{count}</span> kg</h1>
     </>
   );
 }
