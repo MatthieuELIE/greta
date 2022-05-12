@@ -11,6 +11,7 @@ import "./App.css";
 import "./index.css";
 
 import Profils from "@pages/Profils";
+import Impact from "@pages/impact";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/friendsboard" element={<FriendsBoard />} />
+            <Route path="/impact" element={<Impact />} />
             <Route path="/achievements" element={<AchievementsPage />} />
             <Route path="/footprint" element={<FootPrint />} />
             <Route path="/profil" element={<Profils />} />
