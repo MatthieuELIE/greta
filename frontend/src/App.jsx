@@ -1,4 +1,5 @@
 import Home from "@pages/Home";
+import Navbar from "@components/Navbar";
 
 import "./App.css";
 import "./index.css";
@@ -6,7 +7,10 @@ import "./index.css";
 function App() {
   return (
     <div className="App">
-      <Home />
+      <Navbar />
+      <main className="min-h-screen bg-zinc-600">
+        <Home />
+      </main>
     </div>
   );
 }
