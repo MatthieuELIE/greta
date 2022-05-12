@@ -9,7 +9,6 @@ export const dailyQuest = [
   "Ne pas utiliser sa voiture aujourd’hui",
   "Ne pas acheter de produits emballés aujourd’hui",
   "Éviter d’avoir un enfant dans la journée",
-  "Acheter un produit périssable sous deux jours maximum",
 ];
 
 export const randomQuest = [
