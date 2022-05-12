@@ -7,55 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
-
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 10vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-button {
-  font-size: calc(10px + 2vmin);
-}
-
 .userInfo {
   display: flex;
   align-items: flex-start;
@@ -76,16 +27,16 @@ button {
   -webkit-text-fill-color: transparent;
 }
 
-input[type=checkbox]:checked + label.form-check-label{
+input[type=checkbox]:checked+label.form-check-label {
   text-decoration: line-through;
 }
 
 /* Profils */
-.avatar{
- justify-content: center;
- margin: auto;
- text-align: center;
- display: flex;
+.avatar {
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  display: flex;
 }
 
 .userInfo {
@@ -93,11 +44,13 @@ input[type=checkbox]:checked + label.form-check-label{
   align-items: flex-start;
   flex-direction: column;
 }
-.Quêtes-terminés{
+
+.Quêtes-terminés {
   display: flex;
   flex-direction: column;
 }
-.Quêtes-journalières{
+
+.Quêtes-journalières {
   display: flex;
   flex-direction: column;
 }
@@ -120,4 +73,11 @@ input[type=checkbox]:checked + label.form-check-label{
 .link-underline:hover {
   background-size: 100% 3px;
   background-position: 0 100%;
+}
+
+.with-bg {
+  background-image: url(/src/assets/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: color;
 }

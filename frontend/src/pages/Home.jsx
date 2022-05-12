@@ -1,5 +1,4 @@
-import Defis from "@components/Defis"
-
+import Defis from "@components/Defis";
 
 export default function Home() {
   return (

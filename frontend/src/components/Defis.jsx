@@ -67,32 +67,30 @@ export default function Defis() {
 
   return (
     <>
-
-      <h1 className="text-3xl my-4">{count} kg/CO2 économisés</h1>
       <div className="mt-4 bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
-        <h2 className="text-3xl font-[700] text-left ml-8 pb-1">Quête de la semaine 🌿
+        <h2 className="text-3xl font-[700] text-left ml-8 pb-1 text-zinc-800">Quête de la semaine 🌿
         </h2>
         <div className="flex flex-row mb-4 mt-1">
-          <p className="text-left ml-8 text-2xl font-[200]">3 jours restant</p>
-          <p className="ml-4 text-sm text-center p-2 font-[700] rounded-3xl bg-lime-400">
+          <p className="text-left ml-8 text-2xl font-[200] text-zinc-800">3 jours restant</p>
+          <p className="ml-4 text-sm text-center text-white p-2 font-[700] rounded-3xl bg-lime-400">
             45 kg/CO2
           </p>
         </div>
-        <p className="text-center py-2 text-3xl font-[400] rounded-3xl mx-8 bg-zinc-200 mb-4">
+        <p className="text-center py-2 text-3xl font-[400] rounded-3xl mx-8 bg-zinc-200 mb-4 text-zinc-800">
           Ne pas manger de viande
         </p>
         <div>
           <div className="absolute mx-8 h-6 w-[60%] rounded-3xl z-20 bg-gradient-to-r from-emerald-400 to-lime-400"></div>
-          <div className="mx-8 h-6 w-100 top-4 rounded-3xl z-20 bg-zinc-200 text-right pr-2 font-[900]">
+          <div className="mx-8 h-6 w-100 top-4 rounded-3xl z-20 bg-zinc-200 text-right pr-2 font-[900] text-zinc-800">
             80%
           </div>
         </div>
       </div>
-      <h2 className="text-roboto text-3xl font-[700] text-left ml-8">
+      <h2 className="text-roboto text-3xl font-[700] text-left ml-14 text-zinc-800">
         Quêtes du jour
       </h2>
       <div className="mt-8 text-left mx-12 text-xl font-[300]">
-        <div className="form-check mb-8">
+        <div className="form-check mb-12">
           <input
             className="absolute h-6 w-6 my-10 rounded-sm transition duration-200 mt-1 align-top mr-2 cursor-pointer"
             type="checkbox"
@@ -109,7 +107,7 @@ export default function Defis() {
           </label>
         </div>
 
-        <div className="form-check mb-8">
+        <div className="form-check mb-12">
           <input
             className="absolute h-6 w-6 my-10 rounded-sm transition duration-200 mt-1 align-top mr-2 cursor-pointer"
             type="checkbox"
@@ -126,10 +124,9 @@ export default function Defis() {
           </label>
         </div>
 
-        <div className="form-check mb-8">
+        <div className="form-check mb-12">
           <input
-            className="abs
-            ùolute h-6 w-6 my-10 rounded-sm transition duration-200 mt-1 align-top mr-2 cursor-pointer"
+            className="absolute h-6 w-6 my-10 rounded-sm transition duration-200 mt-1 align-top mr-2 cursor-pointer"
             type="checkbox"
             value=""
             id="quest"
@@ -156,7 +153,7 @@ export default function Defis() {
             actualiser
           </button>
         </div>
-        <h2 className="text-roboto text-3xl font-[700] text-left ml-8">Une quête de plus ? 🪴</h2>
+        <h2 className="text-roboto text-3xl font-[700] text-left ml-8 text-zinc-800">Une quête de plus ? 🪴</h2>
         <div className="mt-4 text-left mx-8 text-xl font-[300]">
           <div>
             {randoms.map((quest) => (
@@ -180,6 +177,7 @@ export default function Defis() {
           </div>
         </div>
       </div>
+      <h1 className="fixed top-4 right-4 backdrop-blur-xl rounded-3xl text-zinc-800 text-roboto p-2 text-xl z-50 drop-shadow-md">CO2 économisé : <br></br><span className="font-[900] text-4xl text-emerald-400">{count}</span> kg</h1>
     </>
   );
 }
