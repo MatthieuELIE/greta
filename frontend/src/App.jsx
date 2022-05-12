@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <main className="min-h-screen bg-zinc-600">
+      <main className="min-h-screen">
         <Home />
       </main>
     </div>
