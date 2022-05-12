@@ -3,6 +3,8 @@ import FriendCard from "@components/FriendCard";
 import { Link } from "react-router-dom";
 
 export default function FriendBoard() {
+ 
+ 
   const users = [
     {
       id: 0,
@@ -10,8 +12,10 @@ export default function FriendBoard() {
       image:
         "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShaggyMullet&accessoriesType=Sunglasses&hairColor=BlondeGolden&facialHairType=MoustacheFancy&facialHairColor=Blonde&clotheType=ShirtCrewNeck&clotheColor=Blue01&eyeType=Close&eyebrowType=Default&mouthType=Serious&skinColor=Pale",
       quetes: 15,
-      co2: 97,
-    },
+      co2: 97, 
+      
+    }
+    ,
     {
       id: 1,
       name: "Badri Kaz",
