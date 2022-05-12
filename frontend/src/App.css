@@ -46,6 +46,7 @@ code {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
@@ -53,4 +54,18 @@ code {
 
 button {
   font-size: calc(10px + 2vmin);
+}
+
+.text-knw {
+  font-family: "Knewave", cursive;
+}
+
+.text-mada {
+  font-family: "Mada", sans-serif;
+}
+
+.text-gradient {
+  background: linear-gradient(to right, #34d399 40%, #a3e635 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }

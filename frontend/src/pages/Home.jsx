@@ -1,10 +1,11 @@
-import Quest from "@components/Quest";
-import logo from "@assets/logo.svg";
+import Defis from "@components/Defis"
+
 
 export default function Home() {
   return (
-    <header className="App-header">
-      <Quest />
-    </header>
+    <div className="h-full">
+      <p className="text-white pt-12">hello</p>
+      <Defis />
+    </div>
   );
 }
