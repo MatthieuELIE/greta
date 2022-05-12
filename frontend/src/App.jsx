@@ -1,5 +1,7 @@
 import Home from "@pages/Home";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Navbar from "@components/Navbar";
+import React from "react";
 
 import "./App.css";
 import "./index.css";
@@ -9,10 +11,14 @@ import Profils from "@pages/Profils";
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <main className="min-h-screen">
-        <Home />
-      </main>
+      <BrowserRouter>
+        <Navbar />
+        <main className="min-h-screen">
+          <Routes>
+            <Route path="/" element={<Home />} />
+          </Routes>
+        </main>
+      </BrowserRouter>
     </div>
   );
 }
