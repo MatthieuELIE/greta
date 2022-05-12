@@ -55,10 +55,6 @@ code {
 button {
   font-size: calc(10px + 2vmin);
 }
-.userInfo {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
 
 .text-knw {
   font-family: "Knewave", cursive;
@@ -72,4 +68,18 @@ button {
   background: linear-gradient(to right, #34d399 40%, #a3e635 60%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/* Profils */
+
+.avatar{
+ justify-content: center;
+ margin: auto;
+ text-align: center;
+ display: flex;
+}
+.userInfo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 }
