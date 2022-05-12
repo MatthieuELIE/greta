@@ -13,7 +13,7 @@ export default function Navbar() {
             </div>
             <div className="flex flex-row justify-left w-[90%]">
                 <Link to="/">
-                    <div className="mx-4 py-4 text-zinc-700 hover:cursor-pointer text-4xl text-roboto font-[900] hover:text-emerald-400">
+                    <div className="mx-4 py-4 text-zinc-700 hover:cursor-pointer text-3xl text-roboto font-[900] hover:text-emerald-400">
                         <h2>Accueil</h2>
                     </div>
                 </Link>
@@ -21,11 +21,12 @@ export default function Navbar() {
                     <h2>|</h2>
                 </div>
                 <Link to="/profil">
-                    <div className="mx-3 py-4 text-zinc-700 hover:cursor-pointer text-4xl text-roboto font-[900] hover:text-lime-400">
+                    <div className="mx-3 py-4 text-zinc-700 hover:cursor-pointer text-3xl text-roboto font-[900] hover:text-lime-400">
                         <h2>Mon profil</h2>
                     </div>
                 </Link>
             </div>
+            
         </div>
     );
 }

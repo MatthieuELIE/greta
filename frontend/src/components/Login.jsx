@@ -1,7 +1,7 @@
 export default function Login() {
   return (
     <>
-      <div className="absolute top-4 right-6 hover:scale-105 duration-200">
+      <div className="absolute top-4 right-8 hover:scale-105 duration-200">
         <button
           id="login"
           type="button"

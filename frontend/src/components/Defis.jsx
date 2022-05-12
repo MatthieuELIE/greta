@@ -83,7 +83,7 @@ export default function Defis() {
             45 kg/CO2
           </p>
         </div>
-        <p className="text-center py-2 text-3xl font-[400] rounded-3xl mx-8 bg-zinc-200 mb-4 text-zinc-800">
+        <p className="text-center py-2 text-xl font-[400] rounded-3xl mx-8 bg-zinc-200 mb-4 text-zinc-800">
           Ne pas manger de viande
         </p>
         <div>
