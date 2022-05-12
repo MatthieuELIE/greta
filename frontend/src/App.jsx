@@ -16,6 +16,7 @@ function App() {
         <main className="min-h-screen">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/profil" element={<Profils />} />
           </Routes>
         </main>
       </BrowserRouter>

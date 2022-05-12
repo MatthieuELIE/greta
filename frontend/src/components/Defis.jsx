@@ -52,7 +52,7 @@ export default function Defis() {
   return (
     <>
       <div className="bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
-        <h2 className="text-3xl font-[700] text-left ml-8 pb-1">Quête hebdo</h2>
+        <h2 className="text-3xl font-[700] text-left ml-8 pb-1">Quête de la semaine 🌿</h2>
         <p className="text-left ml-8 text-2xl font-[200] mb-4">3 jours restant</p>
 
         <p className="text-center py-2 text-3xl font-[400] rounded-3xl mx-8 bg-zinc-200 mb-4">Ne pas manger de viande</p>
@@ -64,7 +64,7 @@ export default function Defis() {
           </div>
         </div>
       </div>
-      <h2 className="text-roboto text-3xl font-[700] text-left ml-8">Quêtes quotidiennes</h2>
+      <h2 className="text-roboto text-3xl font-[700] text-left ml-8">Quêtes du jour</h2>
       <div className="mt-8 text-left mx-12 text-xl font-[300]">
         {dailies.map((quest) => (
           <div key={dailies.id} className="form-check">
@@ -86,7 +86,7 @@ export default function Defis() {
         ))}
       </div>
       <div className="bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
-        <h2 className="text-roboto text-3xl font-[700] text-center">Une quête de plus ?</h2>
+        <h2 className="text-roboto text-3xl font-[700] text-center">Une quête de plus ? 🪴</h2>
         <div className="mt-8 text-left mx-8 text-xl font-[300]">
           <div>
             {randoms.map((quest) => (
