@@ -10,7 +10,7 @@ import Profils from "@pages/Profils";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App with-bg bg-bgwhite">
       <BrowserRouter>
         <Navbar />
         <main className="min-h-screen">

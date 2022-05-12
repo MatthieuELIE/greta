@@ -27,16 +27,16 @@ body {
   -webkit-text-fill-color: transparent;
 }
 
-input[type=checkbox]:checked + label.form-check-label{
+input[type=checkbox]:checked+label.form-check-label {
   text-decoration: line-through;
 }
 
 /* Profils */
-.avatar{
- justify-content: center;
- margin: auto;
- text-align: center;
- display: flex;
+.avatar {
+  justify-content: center;
+  margin: auto;
+  text-align: center;
+  display: flex;
 }
 
 .userInfo {
@@ -44,11 +44,20 @@ input[type=checkbox]:checked + label.form-check-label{
   align-items: flex-start;
   flex-direction: column;
 }
-.Quêtes-terminés{
+
+.Quêtes-terminés {
   display: flex;
   flex-direction: column;
 }
-.Quêtes-journalières{
+
+.Quêtes-journalières {
   display: flex;
   flex-direction: column;
+}
+
+.with-bg {
+  background-image: url(/src/assets/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-blend-mode: color;
 }
