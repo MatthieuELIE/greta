@@ -66,12 +66,12 @@ button {
   font-family: "Knewave", cursive;
 }
 
-.text-mada {
-  font-family: "Mada", sans-serif;
+.text-roboto {
+  font-family: 'Roboto', sans-serif;
 }
 
 .text-gradient {
-  background: linear-gradient(to right, #34d399 40%, #a3e635 60%);
+  background: linear-gradient(to right, #34d399 20%, #a3e635 30%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
