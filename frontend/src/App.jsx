@@ -2,6 +2,7 @@ import Home from "@pages/Home";
 import { Route, Routes, BrowserRouter } from "react-router-dom";
 import Navbar from "@components/Navbar";
 import React from "react";
+import Footer from "@components/Footer";
 
 import "./App.css";
 import "./index.css";
@@ -20,6 +21,7 @@ function App() {
             <Route path="/profil" element={<Profils />} />
           </Routes>
         </main>
+        <Footer />
       </BrowserRouter>
     </div>
   );
