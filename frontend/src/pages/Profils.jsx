@@ -4,28 +4,6 @@ import { Bar, Line } from "react-chartjs-2";
 import { Link } from "react-router-dom";
 import Chart from "chart.js/auto";
 
-const data = {
-  labels: [
-    "Janvier",
-    "Fevrier",
-    "Mars",
-    "Avril",
-    "Mai",
-    "Juin",
-    "Juillet",
-    "Août",
-    "Septembre",
-    "Novembre",
-    "Décembre",
-  ],
-  datasets: [
-    {
-      label: "economie de Co2 en kilogrammes équivalent carbone keqC",
-      data: ["32", "12", "15", "20"],
-      backgroundColor: ["green"],
-    },
-  ],
-};
 
 export default function Profils() {
   return (
