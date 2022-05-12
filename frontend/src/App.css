@@ -93,3 +93,11 @@ input[type=checkbox]:checked + label.form-check-label{
   align-items: flex-start;
   flex-direction: column;
 }
+.Quêtes-terminés{
+  display: flex;
+  flex-direction: column;
+}
+.Quêtes-journalières{
+  display: flex;
+  flex-direction: column;
+}

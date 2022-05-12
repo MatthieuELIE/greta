@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
+
         <main className="min-h-screen">
           <Routes>
             <Route path="/" element={<Home />} />
