@@ -23,7 +23,7 @@ export const randomQuest = [
   "Ne pas gaspiller ses restes alimentaire mais les réutiliser",
   "Passer aux ampoules LED",
   "Créer son propre liquide vaisselle",
-  "Planter à minima un arbre dans ton jardin ou celui d'une coniassance",
+  "Planter à minima un arbre dans ton jardin ou celui d'une conaissance",
 ];
 
 function getRandomIndex(max) {
