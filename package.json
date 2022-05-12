@@ -16,11 +16,8 @@
     "concurrently": "^7.0.0"
   },
   "dependencies": {
-<<<<<<< HEAD
-=======
     "chart.js": "^3.7.1",
     "react-chartjs-2": "^4.1.0",
->>>>>>> 90e8a21a78dcfb6e6a97f4f54629ae8b461b54e2
     "react-router-dom": "^6.3.0"
   }
 }

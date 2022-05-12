@@ -69,18 +69,10 @@ export default function Defis() {
 
   return (
     <>
-<<<<<<< HEAD
-      <div className="bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
-        <h2 className="text-3xl font-[700] text-left ml-8 pb-1">Quête hebdo</h2>
-        <p className="text-left ml-8 text-2xl font-[200] mb-4">
-          3 jours restant
-        </p>
-
-=======
-
       <h1 className="text-3xl my-4">{count} kg/CO2 économisés</h1>
       <div className="mt-4 bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
-        <h2 className="text-3xl font-[700] text-left ml-8 pb-1">Quête de la semaine 🌿
+        <h2 className="text-3xl font-[700] text-left ml-8 pb-1">
+          Quête de la semaine 🌿
         </h2>
         <div className="flex flex-row mb-4 mt-1">
           <p className="text-left ml-8 text-2xl font-[200]">3 jours restant</p>
@@ -88,7 +80,6 @@ export default function Defis() {
             45 kg/CO2
           </p>
         </div>
->>>>>>> 90e8a21a78dcfb6e6a97f4f54629ae8b461b54e2
         <p className="text-center py-2 text-3xl font-[400] rounded-3xl mx-8 bg-zinc-200 mb-4">
           Ne pas manger de viande
         </p>
@@ -100,53 +91,6 @@ export default function Defis() {
         </div>
       </div>
       <h2 className="text-roboto text-3xl font-[700] text-left ml-8">
-<<<<<<< HEAD
-        Quêtes quotidiennes
-      </h2>
-      <div className="flex flex-col mx-auto text-left my-8 mx-16 text-roboto w-[90%]">
-        <input
-          className="transition duration-200 cursor-pointer my-8 text-center"
-          type="checkbox"
-          value=""
-          id={`flex`}
-        />
-        <input
-          className="transition duration-200 cursor-pointer my-8 text-center"
-          type="checkbox"
-          value=""
-          id={`flex`}
-        />
-        <input
-          className="transition duration-200 cursor-pointer my-8 text-center"
-          type="checkbox"
-          value=""
-          id={`flex`}
-        />
-      </div>
-      <h2 className="text-roboto text-3xl font-[700] text-left ml-8">
-        Quêtes aléatoires
-      </h2>
-      <div className="flex justify-center m-4 text-left mb-16 ml-16">
-        <div>
-          {randoms.map((quest) => (
-            <div key={randoms.id} className="form-check">
-              <input
-                className="form-check-input h-4 w-4 rounded-sm transition duration-200 mt-1 align-top mr-2 cursor-pointer"
-                type="checkbox"
-                value=""
-                id={`flex${quest}`}
-                onClick={() => setRandomsChecked(!randomsChecked)}
-                onChange={handleDoneRandoms}
-              />
-              <label
-                className="form-check-label inline-block text-gray-800"
-                htmlFor={`flex${quest}`}
-              >
-                {quest}
-              </label>
-            </div>
-          ))}
-=======
         Quêtes du jour
       </h2>
       <div className="mt-8 text-left mx-12 text-xl font-[300]">
@@ -214,7 +158,9 @@ export default function Defis() {
             actualiser
           </button>
         </div>
-        <h2 className="text-roboto text-3xl font-[700] text-left ml-8">Une quête de plus ? 🪴</h2>
+        <h2 className="text-roboto text-3xl font-[700] text-left ml-8">
+          Une quête de plus ? 🪴
+        </h2>
         <div className="mt-4 text-left mx-8 text-xl font-[300]">
           <div>
             {randoms.map((quest) => (
@@ -236,7 +182,6 @@ export default function Defis() {
               </div>
             ))}
           </div>
->>>>>>> 90e8a21a78dcfb6e6a97f4f54629ae8b461b54e2
         </div>
       </div>
     </>
