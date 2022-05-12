@@ -1,10 +1,10 @@
 export const weeklyQuest = [
-  "Ne pas manger de viande pendant la semaine",
+  "Ne pas manger de viande",
 ];
 
 export const dailyQuest = [
-  "Ne pas utiliser sa voiture aujourd’hui",
-  "Ne pas acheter de produits emballés aujourd’hui",
+  "Ne pas utiliser sa voiture ",
+  "Ne pas acheter de produits emballés ",
   "Éviter d’avoir un enfant dans la journée",
 ];
 

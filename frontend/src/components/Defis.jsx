@@ -18,8 +18,8 @@ export default function Defis() {
 
   useEffect(() => {
     setWeekly(getRandomResources(weeklyQuest, 1));
-    setDailies(getRandomResources(dailyQuest, 3));
-    setRandoms(getRandomResources(randomQuest, 5));
+    setDailies(dailyQuest);
+    setRandoms(getRandomResources(randomQuest, 1));
   }, []);
 
   const handleDoneQuest = () => {
@@ -65,47 +65,49 @@ export default function Defis() {
         </div>
       </div>
       <h2 className="text-roboto text-3xl font-[700] text-left ml-8">Quêtes quotidiennes</h2>
-      <div className="flex flex-col mx-auto text-left my-8 mx-16 text-roboto w-[90%]">
-        <input
-          className="transition duration-200 cursor-pointer my-8 text-center"
-          type="checkbox"
-          value=""
-          id={`flex`}
-        />
-        <input
-          className="transition duration-200 cursor-pointer my-8 text-center"
-          type="checkbox"
-          value=""
-          id={`flex`}
-        />
-        <input
-          className="transition duration-200 cursor-pointer my-8 text-center"
-          type="checkbox"
-          value=""
-          id={`flex`}
-        />
+      <div className="mt-8 text-left mx-12 text-xl font-[300]">
+        {dailies.map((quest) => (
+          <div key={dailies.id} className="form-check">
+            <input
+              className="h-6 w-6 my-10 rounded-sm transition duration-200 mt-1 align-top mr-2 cursor-pointer"
+              type="checkbox"
+              value=""
+              id={`flex${quest}`}
+              onClick={() => setDailyChecked(!dailiesChecked)}
+              onChange={handleDoneDailies}
+            />
+            <label
+              className="inline-block text-gray-800"
+              htmlFor={`flex${quest}`}
+            >
+              {quest}
+            </label>
+          </div>
+        ))}
       </div>
-      <h2 className="text-roboto text-3xl font-[700] text-left ml-8">Quêtes aléatoires</h2>
-      <div className="flex justify-center m-4 text-left mb-16 ml-16">
-        <div>
-          {randoms.map((quest) => (
-            <div key={randoms.id} className="form-check">
-              <input
-                className="form-check-input h-4 w-4 rounded-sm transition duration-200 mt-1 align-top mr-2 cursor-pointer"
-                type="checkbox"
-                value=""
-                id={`flex${quest}`}
-                onClick={() => setRandomsChecked(!randomsChecked)}
-                onChange={handleDoneRandoms}
-              />
-              <label
-                className="form-check-label inline-block text-gray-800"
-                htmlFor={`flex${quest}`}
-              >
-                {quest}
-              </label>
-            </div>
-          ))}
+      <div className="bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
+        <h2 className="text-roboto text-3xl font-[700] text-center">Une quête de plus ?</h2>
+        <div className="mt-8 text-left mx-8 text-xl font-[300]">
+          <div>
+            {randoms.map((quest) => (
+              <div key={randoms.id} className="flex flex-row">
+                <input
+                  className="absolute h-6 w-6 my-10 rounded-sm transition duration-200 mt-1 align-top mr-2 cursor-pointer"
+                  type="checkbox"
+                  value=""
+                  id={`flex${quest}`}
+                  onClick={() => setRandomsChecked(!randomsChecked)}
+                  onChange={handleDoneRandoms}
+                />
+                <label
+                  className="pl-8 inline-block text-zinc-800"
+                  htmlFor={`flex${quest}`}
+                >
+                  {quest}
+                </label>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </>
