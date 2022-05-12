@@ -77,19 +77,19 @@ export default function Defis() {
           className="transition duration-200 cursor-pointer my-8 text-center"
           type="checkbox"
           value=""
-          id={`flex${quest}`}
+          id={`flex`}
         />
         <input
           className="transition duration-200 cursor-pointer my-8 text-center"
           type="checkbox"
           value=""
-          id={`flex${quest}`}
+          id={`flex`}
         />
         <input
           className="transition duration-200 cursor-pointer my-8 text-center"
           type="checkbox"
           value=""
-          id={`flex${quest}`}
+          id={`flex`}
         />
       </div>
       <h2 className="text-roboto text-3xl font-[700] text-left ml-8">

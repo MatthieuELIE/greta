@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Navbar />
-        <main className="min-h-screen bg-zinc-600">
+        <main className="min-h-screen">
           <Routes>
             <Route path="/home" element={<Home />} />
             <Route path="/friendsboard" element={<FriendsBoard />} />
@@ -23,6 +23,5 @@ function App() {
     </div>
   );
 }
-g;
 
 export default App;
