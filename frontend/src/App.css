@@ -75,3 +75,7 @@ button {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+input[type=checkbox]:checked + label.form-check-label{
+  text-decoration: line-through;
+}

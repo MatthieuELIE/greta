@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "../App.css"
 
 import {
   weeklyQuest,
@@ -22,7 +23,7 @@ export default function Defis() {
     setRandoms(getRandomResources(randomQuest, 5));
   }, []);
 
-  const handleDoneQuest = () => {
+  const handleWeeklyDone = () => {
     if (!weeklyChecked === true) {
       setCount((count) => count + 70);
     }
@@ -31,7 +32,7 @@ export default function Defis() {
     }
   };
 
-  const handleDoneDailies = () => {
+  const handleDailiesDone = () => {
     if (!dailiesChecked === true) {
       setCount((count) => count + 10);
     }
@@ -40,7 +41,7 @@ export default function Defis() {
     }
   };
 
-  const handleDoneRandoms = () => {
+  const handleRandomsDone = () => {
     if (!randomsChecked === true) {
       setCount((count) => count + 5);
     }
@@ -65,7 +66,7 @@ export default function Defis() {
                 value=""
                 id={`flex${quest}`}
                 onClick={() => setWeeklyChecked(!weeklyChecked)}
-                onChange={handleDoneQuest}
+                onChange={handleWeeklyDone}
               />
               <label
                 className="form-check-label inline-block text-gray-800"
@@ -88,8 +89,8 @@ export default function Defis() {
                 value=""
                 id={`flex${quest}`}
                 onClick={() => setDailiesChecked(!dailiesChecked)}
-                onChange={handleDoneDailies}
-              />
+                onChange={handleDailiesDone}
+                />
               <label
                 className="form-check-label inline-block text-gray-800"
                 htmlFor={`flex${quest}`}
@@ -111,7 +112,7 @@ export default function Defis() {
                 value=""
                 id={`flex${quest}`}
                 onClick={() => setRandomsChecked(!randomsChecked)}
-                onChange={handleDoneRandoms}
+                onChange={handleRandomsDone}
               />
               <label
                 className="form-check-label inline-block text-gray-800"
