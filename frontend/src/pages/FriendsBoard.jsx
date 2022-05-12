@@ -1,5 +1,6 @@
 import React from "react";
 import FriendCard from "@components/FriendCard";
+import { Link } from "react-router-dom";
 
 export default function FriendBoard() {
   const users = [
@@ -13,7 +14,7 @@ export default function FriendBoard() {
     },
     {
       id: 1,
-      name: "Badri Kazimir",
+      name: "Badri Kaz",
       image:
         "https://avataaars.io/?avatarStyle=Circle&topType=Turban&accessoriesType=Sunglasses&hatColor=White&facialHairType=BeardMajestic&facialHairColor=BlondeGolden&clotheType=ShirtScoopNeck&clotheColor=Pink&eyeType=Close&eyebrowType=UnibrowNatural&mouthType=Serious&skinColor=Brown",
       quetes: 25,
@@ -21,7 +22,7 @@ export default function FriendBoard() {
     },
     {
       id: 2,
-      name: "Eugenius Danilo",
+      name: "Hugh Danilo",
       image:
         "https://avataaars.io/?avatarStyle=Circle&topType=Eyepatch&accessoriesType=Blank&hairColor=Red&facialHairType=MoustacheFancy&facialHairColor=Brown&clotheType=ShirtCrewNeck&clotheColor=Pink&eyeType=EyeRoll&eyebrowType=RaisedExcitedNatural&mouthType=Serious&skinColor=Light",
       quetes: 12,
@@ -29,7 +30,7 @@ export default function FriendBoard() {
     },
     {
       id: 3,
-      name: "Jaylen Venera",
+      name: "Jay Venera",
       image:
         "https://avataaars.io/?avatarStyle=Circle&topType=Hat&accessoriesType=Sunglasses&hatColor=Heather&facialHairType=MoustacheFancy&facialHairColor=Red&clotheType=GraphicShirt&clotheColor=PastelBlue&graphicType=Selena&eyeType=Squint&eyebrowType=RaisedExcitedNatural&mouthType=Twinkle&skinColor=DarkBrown",
       quetes: 2,
@@ -40,8 +41,16 @@ export default function FriendBoard() {
   console.log(users);
   return (
     <div>
-      <h1 className="my-8 text-center font-bold text-6xl">
-        Friend' ScoreBoard
+      <div className="flex flex-row mb-12 font-[300] text-roboto text-2xl text-zinc-800">
+        <Link to="/friendsboard">
+          <div className="pl-4 hover:font-bold">Mes amis</div>
+        </Link>
+        <Link to="/achievements">
+          <div className="pl-4 hover:font-bold">Mes hauts-faits</div>
+        </Link>
+      </div>
+      <h1 className="my-8 text-left ml-12 text-zinc-800 text-4xl text-roboto font-[400]">
+        Mes amis
       </h1>
       <div className="flex flex-col w-screen items-center justify-center">
         {users.map((user) => (

@@ -67,16 +67,23 @@ export default function Defis() {
 
   return (
     <>
+      <h1 className="rounded-3xl text-zinc-800 text-roboto text-center p-2 my-8 text-3xl z-50 drop-shadow-md">
+        CO2 économisé : <br></br>
+        <span className="font-[900] text-4xl text-emerald-400">{count}</span> kg
+      </h1>
       <div className="mt-4 bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
-        <h2 className="text-3xl font-[700] text-left ml-8 pb-1 text-zinc-800">Quête de la semaine 🌿
+        <h2 className="text-3xl font-[700] text-left ml-8 pb-1 text-zinc-800">
+          Quête de la semaine 🌿
         </h2>
         <div className="flex flex-row mb-4 mt-1">
-          <p className="text-left ml-8 text-2xl font-[200] text-zinc-800">3 jours restant</p>
+          <p className="text-left ml-8 text-2xl font-[200] text-zinc-800">
+            3 jours restant
+          </p>
           <p className="ml-4 text-sm text-center text-white p-2 font-[700] rounded-3xl bg-lime-400">
             45 kg/CO2
           </p>
         </div>
-        <p className="text-center py-2 text-3xl font-[400] rounded-3xl mx-8 bg-zinc-200 mb-4 text-zinc-800">
+        <p className="text-center py-2 text-xl font-[400] rounded-3xl mx-8 bg-zinc-200 mb-4 text-zinc-800">
           Ne pas manger de viande
         </p>
         <div>
@@ -153,7 +160,9 @@ export default function Defis() {
             actualiser
           </button>
         </div>
-        <h2 className="text-roboto text-3xl font-[700] text-left ml-8 text-zinc-800">Une quête de plus ? 🪴</h2>
+        <h2 className="text-roboto text-3xl font-[700] text-left ml-8 text-zinc-800">
+          Une quête de plus ? 🪴
+        </h2>
         <div className="mt-4 text-left mx-8 text-xl font-[300]">
           <div>
             {randoms.map((quest) => (
@@ -177,7 +186,6 @@ export default function Defis() {
           </div>
         </div>
       </div>
-      <h1 className="fixed top-4 right-4 backdrop-blur-xl rounded-3xl text-zinc-800 text-roboto p-2 text-xl z-50 drop-shadow-md">CO2 économisé : <br></br><span className="font-[900] text-4xl text-emerald-400">{count}</span> kg</h1>
     </>
   );
 }
