@@ -8,13 +8,12 @@ function App() {
   return (
     <div className="App">
       <Home />
-      
+
       <BrowserRouter>
         <Routes>
           <Route path="/Profils" element={<Profils />} />
         </Routes>
       </BrowserRouter>
-      
     </div>
   );
 }
