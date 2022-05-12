@@ -75,3 +75,17 @@ button {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+/* Profils */
+
+.avatar{
+ justify-content: center;
+ margin: auto;
+ text-align: center;
+ display: flex;
+}
+.userInfo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
