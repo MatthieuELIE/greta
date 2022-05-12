@@ -29,7 +29,7 @@ code {
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -55,6 +55,10 @@ code {
 button {
   font-size: calc(10px + 2vmin);
 }
+.userInfo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
 
 .text-knw {
   font-family: "Knewave", cursive;
