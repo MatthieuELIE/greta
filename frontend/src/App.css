@@ -79,3 +79,17 @@ button {
 input[type=checkbox]:checked + label.form-check-label{
   text-decoration: line-through;
 }
+
+/* Profils */
+.avatar{
+ justify-content: center;
+ margin: auto;
+ text-align: center;
+ display: flex;
+}
+
+.userInfo {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}

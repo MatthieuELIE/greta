@@ -45,8 +45,10 @@ export default function Defis() {
     <h1 className="text-3xl my-4">{count} kg/CO2 économisés</h1>
       <div className="bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
         <h2 className="text-3xl font-[700] text-left ml-8 pb-1">Quête de la semaine 🌿</h2>
-        <p className="text-left ml-8 text-2xl font-[200] mb-4">3 jours restant</p>
-
+        <div className="flex flex-row mb-4 mt-1">
+          <p className="text-left ml-8 text-2xl font-[200]">3 jours restant</p>
+          <p className="ml-4 text-sm text-center p-2 font-[700] rounded-3xl bg-lime-400">45 kg/CO2</p>
+        </div>
         <p className="text-center py-2 text-3xl font-[400] rounded-3xl mx-8 bg-zinc-200 mb-4">Ne pas manger de viande</p>
         <div>
           <div className="absolute mx-8 h-6 w-[60%] rounded-3xl z-20 bg-gradient-to-r from-emerald-400 to-lime-400">
@@ -59,9 +61,9 @@ export default function Defis() {
       <h2 className="text-roboto text-3xl font-[700] text-left ml-8">Quêtes du jour</h2>
       <div className="mt-8 text-left mx-12 text-xl font-[300]">
         {dailies.map((quest) => (
-          <div key={dailies.id} className="form-check">
+          <div key={dailies.id} className="form-check mb-8">
             <input
-              className="h-6 w-6 my-10 rounded-sm transition duration-200 mt-1 align-top mr-2 cursor-pointer"
+              className="absolute h-6 w-6 my-10 rounded-sm transition duration-200 mt-1 align-top mr-2 cursor-pointer"
               type="checkbox"
               value=""
               id={`flex${quest}`}
@@ -69,7 +71,7 @@ export default function Defis() {
               onChange={handleDailiesDone}
             />
             <label
-              className="form-check-label inline-block text-gray-800"
+              className="form-check-label pl-8 inline-block text-gray-800"
               htmlFor={quest}
             >
               {quest}
@@ -77,7 +79,7 @@ export default function Defis() {
           </div>
         ))}
       </div>
-      <div className="bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
+      <div className="bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12 mt-12">
         <h2 className="text-roboto text-3xl font-[700] text-center">Une quête de plus ? 🪴</h2>
         <div className="mt-8 text-left mx-8 text-xl font-[300]">
           <div>
