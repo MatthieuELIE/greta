@@ -177,7 +177,7 @@ export default function Defis() {
           </div>
         </div>
       </div>
-      <h1 className="fixed top-4 right-4 backdrop-blur-xl rounded-3xl text-zinc-800 text-roboto p-2 text-xl z-50 drop-shadow-md">CO2 économisé : <br></br><span className="font-[900] text-4xl text-emerald-400">{count}</span> kg</h1>
+      <h1 className="fixed bottom-4 right-4 backdrop-blur-xl rounded-3xl text-zinc-800 text-roboto p-2 text-xl z-50 drop-shadow-md">CO2 économisé : <br></br><span className="font-[900] text-4xl text-emerald-400">{count}</span> kg</h1>
     </>
   );
 }
