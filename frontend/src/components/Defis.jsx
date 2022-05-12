@@ -1,4 +1,12 @@
+import { useState } from "react";
+
 export default function Defis() {
+  const [isValidated, setIsValidated] = useState(false);
+
+  const handleClick = () => {
+      setIsValidated(!isValidated);
+  };
+
   return (
     <>
       <h2 className="text-2xl">Défi de la semaine</h2>
@@ -10,6 +18,7 @@ export default function Defis() {
               type="checkbox"
               value=""
               id="flexCheckDefault"
+              onClick={handleClick}
             />
             <label
               className="form-check-label inline-block text-gray-800"
