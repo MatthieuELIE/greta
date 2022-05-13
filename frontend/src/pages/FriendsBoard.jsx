@@ -5,14 +5,6 @@ import { Link } from "react-router-dom";
 export default function FriendBoard() {
   const users = [
     {
-      id: 0,
-      name: "Milorad Yura",
-      image:
-        "https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShaggyMullet&accessoriesType=Sunglasses&hairColor=BlondeGolden&facialHairType=MoustacheFancy&facialHairColor=Blonde&clotheType=ShirtCrewNeck&clotheColor=Blue01&eyeType=Close&eyebrowType=Default&mouthType=Serious&skinColor=Pale",
-      quetes: 15,
-      co2: 97,
-    },
-    {
       id: 1,
       name: "Badri Kaz",
       image:
@@ -41,7 +33,11 @@ export default function FriendBoard() {
   console.log(users);
   return (
     <div>
-      <div className="flex flex-row mb-12 font-[300] text-roboto text-2xl text-zinc-800">
+      <div className="flex flex-row mb-12 font-[300] text-roboto text-xl text-zinc-800">
+        <Link to="/impact">
+          <div className="pl-4 hover:font-bold">Mon empreinte</div>
+        </Link>
+
         <Link to="/friendsboard">
           <div className="pl-4 hover:font-bold">Mes amis</div>
         </Link>
@@ -49,9 +45,27 @@ export default function FriendBoard() {
           <div className="pl-4 hover:font-bold">Mes hauts-faits</div>
         </Link>
       </div>
-      <h1 className="my-8 text-left ml-12 text-zinc-800 text-4xl text-roboto font-[400]">
+      <h1 className="mb-24 text-left ml-12 text-zinc-800 text-4xl text-roboto font-[400]">
         Mes amis
       </h1>
+      <Link to="/graphic">
+        <div className="my-10 p-8 h-25 w-[70%] mx-auto cursor-pointer rounded-3xl bg-gray-100 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl flex">
+          <div className="-mb-20 -translate-y-1/2 transform">
+            <img src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShaggyMullet&accessoriesType=Sunglasses&hairColor=BlondeGolden&facialHairType=MoustacheFancy&facialHairColor=Blonde&clotheType=ShirtCrewNeck&clotheColor=Blue01&eyeType=Close&eyebrowType=Default&mouthType=Serious&skinColor=Pale" alt={name} title={name} className="mr-8 h-40" />
+          </div>
+          <div className="text-center">
+            <h3 className="mb-2 text-2xl font-bold">Milorad Yura</h3>
+            <ul className="flex flex-row justify-center text-lg">
+              <li className="flex flex-col">
+                <span className="font-bold">Quêtes</span>15
+              </li>
+              <li className="mx-6 flex flex-col">
+                <span className="font-bold">Co2</span>97
+              </li>
+            </ul>
+          </div>
+        </div>
+      </Link>
       <div className="flex flex-col w-screen items-center justify-center">
         {users.map((user) => (
           <FriendCard
@@ -63,6 +77,6 @@ export default function FriendBoard() {
           />
         ))}
       </div>
-    </div>
+    </div >
   );
 }
