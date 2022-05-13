@@ -8,7 +8,8 @@ import AchievementsPage from "@pages/AchievementsPage";
 import Profils from "@pages/Profils";
 import Impact from "@pages/Impact";
 import Reco from "@pages/Reco";
-import Graphic from "@pages/graphique";
+import Graphic from "@pages/Graphique";
+import Maison from "@pages/Maison";
 
 import "./App.css";
 import "./index.css";
@@ -27,6 +28,7 @@ function App() {
             <Route path="/profil" element={<Profils />} />
             <Route path="/reco" element={<Reco />} />
             <Route path="/graphic" element={<Graphic />} />
+            <Route path="/maison" element={<Maison />}/>
           </Routes>
         </main>
         <Footer />

@@ -5,9 +5,9 @@ import "../App.css";
 export default function Impact() {
   return (
     <>
-    <div className="pl-16">
-    <img src="./src/assets/empreinte.png" width="250"/>
-    </div>
+      <div className="pl-16">
+        <img src="./src/assets/empreinte.png" width="100" />
+      </div>
       <div class="px-6 pt-6 2xl:container">
         <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <div class="md:col-span-2 lg:col-span-1">
@@ -338,7 +338,7 @@ export default function Impact() {
           </p>
           <img src="./src/assets/nissan.png" width="500" />
           <p className="text-roboto my-2 pl-8">Consommation de CO2 par km :</p>
-          <div className="absolute mx-8 h-6 w-[50%] rounded-3xl z-10 bg-gradient-to-r from-red-300 to-red-500"></div>
+          <div className="absolute mx-8 h-6 w-[48%] rounded-3xl z-10 bg-gradient-to-r from-red-300 to-red-500"></div>
           <div className="text-roboto mx-8 h-6 w-100 top-4 rounded-3xl z-50 bg-zinc-200 text-right pr-4 font-[900] text-zinc-800">
             183 g
           </div>
@@ -346,6 +346,26 @@ export default function Impact() {
             <div className="text-center py-8 text-lg">
               <button className="rounded-3xl text-roboto mb-4 text-white font-[700] border-2 border-zinc-100 hover:border-white hover:shadow-inner py-1 px-4 bg-gradient-to-r from-emerald-400 to-lime-400">
                 Changer de voiture
+              </button>
+            </div>
+          </Link>
+        </div>
+        <h2 className="text-roboto text-3xl my-4 font-[700] text-left ml-8 pb-1 text-zinc-800">
+          Ma maison
+        </h2>
+        <div>
+          <div className="border border-black border-4 rounded-xl">
+          <img src="./src/assets/maison.png" width="500"/>
+          </div>
+          <p className="text-roboto my-2 pl-8">Consommation de CO2 par jour :</p>
+          <div className="absolute mx-8 h-6 w-[52%] rounded-3xl z-10 bg-gradient-to-r from-red-400 to-red-600"></div>
+          <div className="text-roboto mx-8 h-6 w-100 top-4 rounded-3xl z-50 bg-zinc-200 text-right pr-4 font-[900] text-zinc-800">
+            369 g
+          </div>
+          <Link to="/maison">
+            <div className="text-center py-8 text-lg">
+              <button className="rounded-3xl text-roboto mb-4 text-white font-[700] border-2 border-zinc-100 hover:border-white hover:shadow-inner py-1 px-4 bg-gradient-to-r from-emerald-400 to-lime-400">
+                Astuces pour économiser
               </button>
             </div>
           </Link>
