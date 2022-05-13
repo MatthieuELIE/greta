@@ -8,7 +8,7 @@ import AchievementsPage from "@pages/AchievementsPage";
 import Profils from "@pages/Profils";
 import Impact from "@pages/Impact";
 import Reco from "@pages/Reco";
-import Graphic from "@pages/Graphic";
+import Graphic from "@pages/Graphique";
 
 import "./App.css";
 import "./index.css";
