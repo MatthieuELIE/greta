@@ -73,7 +73,7 @@ export default function Defis() {
         </h2>
         <div className="flex flex-row mb-4 mt-1">
           <p className="text-left ml-8 text-2xl font-[200] text-zinc-800">
-            3 jours restant
+            3 jours restants
           </p>
           <p className="ml-4 text-sm text-center text-white p-2 font-[700] rounded-3xl bg-lime-400">
             45 kg/CO2
