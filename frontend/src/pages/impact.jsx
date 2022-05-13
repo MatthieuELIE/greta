@@ -5,9 +5,9 @@ import "../App.css";
 export default function Impact() {
   return (
     <>
-    <div className="pl-16">
-    <img src="./src/assets/empreinte.png" width="250"/>
-    </div>
+      <div className="pl-16">
+        <img src="./src/assets/empreinte.png" width="250" />
+      </div>
       <div class="px-6 pt-6 2xl:container">
         <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <div class="md:col-span-2 lg:col-span-1">
