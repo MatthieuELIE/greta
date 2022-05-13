@@ -1,13 +1,34 @@
 import { Link } from "react-router-dom";
-import Reco from "@pages/Reco";
 import "../App.css";
+import { useEffect, useState } from "react";
 
 export default function Impact() {
+
+  const [counter, setCounter] = useState(56);
+  const [counterGmail, setCounterGmail] = useState(23)
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCounter((counter) => counter + 1);
+    }, 3000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCounterGmail((counterGmail) => counterGmail + 1);
+    }, 3000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
   return (
     <>
-      <div className="pl-16">
-        <img src="./src/assets/empreinte.png" width="250" />
-      </div>
       <div class="px-6 pt-6 2xl:container">
         <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <div class="md:col-span-2 lg:col-span-1">
@@ -111,7 +132,7 @@ export default function Impact() {
                 </defs>
               </svg>
               <div>
-                <h5 class="text-xl text-gray-600 text-center">Co2 economisé</h5>
+                <h5 class="text-xl text-gray-600 text-center">Co2 émit</h5>
                 <div class="mt-2 flex justify-center gap-4">
                   <h3 class="text-3xl font-bold text-gray-700">235 keqC</h3>
                   <div class="flex items-end gap-1 text-green-500">
@@ -327,6 +348,23 @@ export default function Impact() {
                 </tbody>
               </table>
             </div>
+          </div>
+        </div>
+        <h2 className="text-roboto text-3xl my-4 font-[700] text-left ml-8 pb-1 text-zinc-800">
+          Mon compte Gmail
+        </h2>
+        <div>
+          <p className="text-roboto text-xl text-center my-2">
+            Gmail de Thomas Thumberg
+          </p>
+          <div className="flex flex-col">
+            <div className="absolute right-56 py-0.5 px-1 bg-red-400 rounded-3xl z-50 font-[700]">{counterGmail}</div>
+            <img className="mx-auto mb-12 mt-4" src="./src/assets/gmail.png" width="100" />
+          </div>
+          <p className="text-roboto my-2 pl-8">CO2 consommé depuis l'ouverture de la page :</p>
+          <div className="absolute mx-8 h-6 w-[20%] rounded-3xl z-10 bg-gradient-to-r from-red-300 to-red-600"></div>
+          <div className="text-roboto mx-8 h-6 w-100 top-4 rounded-3xl z-50 bg-zinc-200 text-right pr-4 font-[900] text-zinc-800">
+            {counter} g
           </div>
         </div>
         <h2 className="text-roboto text-3xl my-4 font-[700] text-left ml-8 pb-1 text-zinc-800">
