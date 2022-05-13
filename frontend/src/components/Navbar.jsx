@@ -25,6 +25,14 @@ export default function Navbar() {
             Mon empreinte
           </div>
         </Link>
+        <div className="py-4 text-zinc-700 text-3xl text-roboto font-[400]">
+          <h2>|</h2>
+        </div>
+        <Link to="/discount">
+          <div className="mx-3 py-4 text-zinc-700 hover:cursor-pointer text-2xl text-roboto font-[900] hover:text-lime-400">
+            Store
+          </div>
+        </Link>
       </div>
     </div>
   );
