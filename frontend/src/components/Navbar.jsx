@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Login from "./Login";
 
 export default function Navbar() {
+
     return (
         <div>
             <div className="ml-4 text-left py-4">
@@ -36,4 +37,5 @@ export default function Navbar() {
             </div>
         </div>
     );
+
 }
