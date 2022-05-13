@@ -14,6 +14,9 @@ export default function AchievementsPage() {
         <Link to="/arbres">
           <div className="pl-4 hover:scale-105">Adopte un arbre</div>
         </Link>
+        <Link to="/arbres">
+          <div className="pl-4 hover:font-bold">Adopte un arbre</div>
+        </Link>
       </div>
       <div className="my-8">
         <div className="flex flex-col items-center">
