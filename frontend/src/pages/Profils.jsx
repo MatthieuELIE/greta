@@ -4,13 +4,12 @@ import { Bar, Line } from "react-chartjs-2";
 import { Link } from "react-router-dom";
 import Chart from "chart.js/auto";
 
-
 export default function Profils() {
   return (
     <div className="ProfilsPage">
       <div className="flex flex-row mb-12 font-[300] text-roboto text-2xl text-zinc-800">
         <Link to="/impact">
-        <div className="pl-4 hover:font-bold">Mon empreinte</div>
+          <div className="pl-4 hover:font-bold">Mon empreinte</div>
         </Link>
         <Link to="/friendsboard">
           <div className="pl-4 hover:font-bold">Mes amis</div>

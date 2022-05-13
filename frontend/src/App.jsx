@@ -7,6 +7,7 @@ import FriendsBoard from "@pages/FriendsBoard";
 import AchievementsPage from "@pages/AchievementsPage";
 import Profils from "@pages/Profils";
 import Impact from "@pages/Impact";
+import Account from "@pages/Account";
 import Reco from "@pages/Reco";
 
 import "./App.css";
@@ -24,6 +25,7 @@ function App() {
             <Route path="/impact" element={<Impact />} />
             <Route path="/achievements" element={<AchievementsPage />} />
             <Route path="/profil" element={<Profils />} />
+            <Route path="/account" element={<Account />} />
             <Route path="/reco" element={<Reco />} />
           </Routes>
         </main>
