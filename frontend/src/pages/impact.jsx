@@ -5,19 +5,9 @@ import "../App.css";
 export default function Impact() {
   return (
     <>
-
-      <div className="flex flex-row mb-12 font-[300] text-roboto text-xl text-zinc-800">
-        <Link to="/impact">
-          <div className="pl-4 hover:font-bold">Mon empreinte</div>
-        </Link>
-        <Link to="/friendsboard">
-          <div className="pl-4 hover:font-bold">Mes amis</div>
-        </Link>
-        <Link to="/achievements">
-          <div className="pl-4 hover:font-bold">Mes hauts-faits</div>
-        </Link>
-      </div>
-
+    <div className="pl-16">
+    <img src="./src/assets/empreinte.png" width="250"/>
+    </div>
       <div class="px-6 pt-6 2xl:container">
         <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <div class="md:col-span-2 lg:col-span-1">
