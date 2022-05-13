@@ -4,12 +4,15 @@ import { Link } from "react-router-dom";
 export default function AchievementsPage() {
   return (
     <>
-      <div className="flex flex-row mb-12 font-[300] text-roboto text-xl text-zinc-800">
+      <div className="flex flex-col mb-12 font-[300] text-roboto text-xl text-zinc-800 text-center  ">
         <Link to="/friendsboard">
           <div className="pl-4 hover:font-bold">Mes amis</div>
         </Link>
         <Link to="/achievements">
           <div className="pl-4 hover:font-bold">Mes hauts-faits</div>
+        </Link>
+        <Link to="/arbres">
+          <div className="pl-4 hover:font-bold">Adopte un arbre</div>
         </Link>
       </div>
       <div className="my-8">
