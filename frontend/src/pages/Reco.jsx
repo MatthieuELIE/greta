@@ -4,7 +4,7 @@ export default function Reco() {
   return (
     <>
       <h3 className="text-roboto my-8 text-2xl font-[700] text-left ml-8 pb-1 text-zinc-800">
-        Ce modèle pourrait vous plaire :
+        Ce modèle pourrait te plaire :
       </h3>
       <p className="text-roboto text-xl text-center my-2">
         SMART FORTWO CABRIO EQ{" "}
