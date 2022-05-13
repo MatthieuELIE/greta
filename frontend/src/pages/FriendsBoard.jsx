@@ -30,17 +30,12 @@ export default function FriendBoard() {
     },
   ];
 
-  console.log(users);
   return (
     <div>
-<<<<<<< HEAD
       <div className="flex flex-row mb-12 font-[300] text-roboto text-xl text-zinc-800">
         <Link to="/impact">
           <div className="pl-4 hover:font-bold">Mon empreinte</div>
         </Link>
-=======
-      <div className="flex flex-row mb-12 font-[300] text-roboto text-2xl text-zinc-800">
->>>>>>> a15a46a299450bd990360d709fc400a69f0f94f3
         <Link to="/friendsboard">
           <div className="pl-4 hover:font-bold">Mes amis</div>
         </Link>
@@ -48,7 +43,7 @@ export default function FriendBoard() {
           <div className="pl-4 hover:font-bold">Mes hauts-faits</div>
         </Link>
       </div>
-      <h1 className="my-8 text-left ml-12 text-zinc-800 text-4xl text-roboto font-[400]">
+      <h1 className="mb-24 text-left ml-12 text-zinc-800 text-4xl text-roboto font-[400]">
         Mes amis
       </h1>
       <Link to="/graphic">
