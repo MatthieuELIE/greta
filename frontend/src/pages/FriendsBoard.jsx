@@ -44,7 +44,7 @@ export default function FriendBoard() {
         Mes amis
       </h1>
       <Link to="/graphique">
-        <div className="my-10 p-8 h-25 w-[70%] mx-auto cursor-pointer rounded-3xl bg-gray-100 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl flex">
+        <div className="my-10 p-8 h-25 w-[90%] mx-auto cursor-pointer rounded-3xl bg-gray-100 transition duration-300 ease-in-out hover:scale-105 hover:drop-shadow-2xl flex">
           <div className="-mb-20 -translate-y-1/2 transform">
             <img
               src="https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShaggyMullet&accessoriesType=Sunglasses&hairColor=BlondeGolden&facialHairType=MoustacheFancy&facialHairColor=Blonde&clotheType=ShirtCrewNeck&clotheColor=Blue01&eyeType=Close&eyebrowType=Default&mouthType=Serious&skinColor=Pale"
