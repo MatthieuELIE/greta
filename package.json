@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "chart.js": "^3.7.1",
+    "esbuild-linux-64": "^0.14.27",
     "react-chartjs-2": "^4.1.0",
     "react-router-dom": "^6.3.0"
   }
