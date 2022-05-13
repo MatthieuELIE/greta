@@ -7,10 +7,11 @@ import Chart from "chart.js/auto";
 export default function Profils() {
   return (
     <div className="ProfilsPage">
-      <div className="flex flex-row mb-12 font-[300] text-roboto text-2xl text-zinc-800">
+      <div className="flex flex-row mb-12 font-[300] text-roboto text-xl text-zinc-800">
         <Link to="/impact">
           <div className="pl-4 hover:font-bold">Mon empreinte</div>
         </Link>
+
         <Link to="/friendsboard">
           <div className="pl-4 hover:font-bold">Mes amis</div>
         </Link>
@@ -22,7 +23,9 @@ export default function Profils() {
         <h1 className="text-3xl text-center font-[700] pb-1">
           Thomas Thumberg
         </h1>
-        <img className="avatar" src={avatar} alt="avatar" width="120px" />
+        <Link to="/account">
+          <img className="avatar" src={avatar} alt="avatar" width="120px" />
+        </Link>
         <div className="flex flex-col text-center justify-centert">
           <p className="mt-4 font-[700]">28 ans - Bordeaux</p>
           <p className="mt-2 bg-zinc-200 p-2 rounded-3xl w-[90%] mx-auto">

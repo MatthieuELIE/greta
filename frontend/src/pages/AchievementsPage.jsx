@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function AchievementsPage() {
   return (
     <>
-      <div className="flex flex-row mb-12 font-[300] text-roboto text-2xl text-zinc-800">
+      <div className="flex flex-row mb-12 font-[300] text-roboto text-xl text-zinc-800">
         <Link to="/impact">
           <div className="pl-4 hover:font-bold">Mon empreinte</div>
         </Link>
@@ -198,8 +198,8 @@ export default function AchievementsPage() {
                 y2="41.9535"
                 gradientUnits="userSpaceOnUse"
               >
-                <stop stop-color="#E323FF" />
-                <stop offset="1" stop-color="#7517F8" />
+                <stop stop-color="#34d399" />
+                <stop offset="1" stop-color="#a3e635" />
               </linearGradient>
             </defs>
           </svg>

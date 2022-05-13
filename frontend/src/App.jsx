@@ -9,6 +9,8 @@ import Profils from "@pages/Profils";
 import Impact from "@pages/Impact";
 import Account from "@pages/Account";
 import Reco from "@pages/Reco";
+import Discount from "@pages/Discount";
+import Graphic from "@pages/graphique";
 
 import "./App.css";
 import "./index.css";
@@ -26,7 +28,9 @@ function App() {
             <Route path="/achievements" element={<AchievementsPage />} />
             <Route path="/profil" element={<Profils />} />
             <Route path="/account" element={<Account />} />
+            <Route path="/discount" element={<Discount />} />
             <Route path="/reco" element={<Reco />} />
+            <Route path="/graphic" element={<Graphic />} />
           </Routes>
         </main>
         <Footer />

@@ -5,11 +5,11 @@ export default function Discount() {
     <div tabindex="0" class="focus:outline-none">
       <div class="mx-auto container py-8">
         <div class="flex flex-wrap items-center lg:justify-between justify-center">
-          <div tabindex="0" class="focus:outline-none mx-2 w-72 xl:mb-0 mb-8">
+          <div tabindex="0" class="focus:outline-none mx-2 xl:mb-0 mb-8">
             <div>
               <img
                 alt="person capturing an image"
-                src="https://cdn.tuk.dev/assets/templates/classified/Bitmap (1).png"
+                src="https://upload.wikimedia.org/wikipedia/fr/9/9e/Logo_Biocoop2018.png"
                 tabindex="0"
                 class="focus:outline-none w-full h-44"
               />
@@ -39,7 +39,7 @@ export default function Discount() {
                     tabindex="0"
                     class="focus:outline-none text-xs text-yellow-700"
                   >
-                    Featured
+                    50 €
                   </p>
                 </div>
               </div>
@@ -49,7 +49,7 @@ export default function Discount() {
                     tabindex="0"
                     class="focus:outline-none text-lg font-semibold"
                   >
-                    iphone XS
+                    Fruits & Légumes
                   </h2>
                   <p
                     tabindex="0"
@@ -62,47 +62,16 @@ export default function Discount() {
                   tabindex="0"
                   class="focus:outline-none text-xs text-gray-600 mt-2"
                 >
-                  The Apple iPhone XS is available in 3 colors with 64GB memory.
-                  Shoot amazing videos
+                  Un bon d'achat pour deux tomates cerises.
                 </p>
-                <div class="flex mt-4">
-                  <div>
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      12 months warranty
-                    </p>
-                  </div>
-                  <div class="pl-2">
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      Complete box
-                    </p>
-                  </div>
-                </div>
-                <div class="flex items-center justify-between py-4">
-                  <h2
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xs font-semibold"
-                  >
-                    Bay Area, San Francisco
-                  </h2>
-                  <h3
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xl font-semibold"
-                  ></h3>
-                </div>
               </div>
             </div>
           </div>
-          <div tabindex="0" class="focus:outline-none mx-2 w-72 xl:mb-0 mb-8">
+          <div tabindex="0" class="focus:outline-none mx-2 xl:mb-0 mb-8">
             <div>
               <img
                 alt="person capturing an image"
-                src="https://cdn.tuk.dev/assets/templates/classified/Bitmap (1).png"
+                src="https://www.mirakl.fr/data/uploads/nature-et-decouvertes-concept.jpg"
                 tabindex="0"
                 class="focus:outline-none w-full h-44"
               />
@@ -132,7 +101,7 @@ export default function Discount() {
                     tabindex="0"
                     class="focus:outline-none text-xs text-yellow-700"
                   >
-                    Featured
+                    10 €
                   </p>
                 </div>
               </div>
@@ -142,60 +111,29 @@ export default function Discount() {
                     tabindex="0"
                     class="focus:outline-none text-lg font-semibold"
                   >
-                    iphone XS
+                    Bien être
                   </h2>
                   <p
                     tabindex="0"
                     class="focus:outline-none text-xs text-gray-600 pl-5"
                   >
-                    4 days ago
+                    32 days ago
                   </p>
                 </div>
                 <p
                   tabindex="0"
                   class="focus:outline-none text-xs text-gray-600 mt-2"
                 >
-                  The Apple iPhone XS is available in 3 colors with 64GB memory.
-                  Shoot amazing videos
+                  Bon d'achat pour de l'encens
                 </p>
-                <div class="flex mt-4">
-                  <div>
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      12 months warranty
-                    </p>
-                  </div>
-                  <div class="pl-2">
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      Complete box
-                    </p>
-                  </div>
-                </div>
-                <div class="flex items-center justify-between py-4">
-                  <h2
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xs font-semibold"
-                  >
-                    Bay Area, San Francisco
-                  </h2>
-                  <h3
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xl font-semibold"
-                  ></h3>
-                </div>
               </div>
             </div>
           </div>
-          <div tabindex="0" class="focus:outline-none mx-2 w-72 xl:mb-0 mb-8">
+          <div tabindex="0" class="focus:outline-none mx-2 xl:mb-0 mb-8">
             <div>
               <img
                 alt="person capturing an image"
-                src="https://cdn.tuk.dev/assets/templates/classified/Bitmap (1).png"
+                src="https://laboxdumois.fr/wp-content/uploads/2018/01/logo_pc_incline.png"
                 tabindex="0"
                 class="focus:outline-none w-full h-44"
               />
@@ -225,7 +163,7 @@ export default function Discount() {
                     tabindex="0"
                     class="focus:outline-none text-xs text-yellow-700"
                   >
-                    Featured
+                    25 €
                   </p>
                 </div>
               </div>
@@ -235,60 +173,29 @@ export default function Discount() {
                     tabindex="0"
                     class="focus:outline-none text-lg font-semibold"
                   >
-                    iphone XS
+                    Légumes
                   </h2>
                   <p
                     tabindex="0"
                     class="focus:outline-none text-xs text-gray-600 pl-5"
                   >
-                    4 days ago
+                    1 days ago
                   </p>
                 </div>
                 <p
                   tabindex="0"
                   class="focus:outline-none text-xs text-gray-600 mt-2"
                 >
-                  The Apple iPhone XS is available in 3 colors with 64GB memory.
-                  Shoot amazing videos
+                  Bon d'achat pour des graines de chia.
                 </p>
-                <div class="flex mt-4">
-                  <div>
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      12 months warranty
-                    </p>
-                  </div>
-                  <div class="pl-2">
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      Complete box
-                    </p>
-                  </div>
-                </div>
-                <div class="flex items-center justify-between py-4">
-                  <h2
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xs font-semibold"
-                  >
-                    Bay Area, San Francisco
-                  </h2>
-                  <h3
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xl font-semibold"
-                  ></h3>
-                </div>
               </div>
             </div>
           </div>
-          <div tabindex="0" class="focus:outline-none mx-2 w-72 xl:mb-0 mb-8">
+          <div tabindex="0" class="focus:outline-none mx-2 xl:mb-0 mb-8">
             <div>
               <img
                 alt="person capturing an image"
-                src="https://cdn.tuk.dev/assets/templates/classified/Bitmap (1).png"
+                src="https://media.cdnws.com/_i/46016/4650/884/51/stickers-smart-ref9-autocollant-voiture-sticker-auto-autocollants-decals-sponsors-racing-tuning-sport-logo-min.jpeg"
                 tabindex="0"
                 class="focus:outline-none w-full h-44"
               />
@@ -318,7 +225,7 @@ export default function Discount() {
                     tabindex="0"
                     class="focus:outline-none text-xs text-yellow-700"
                   >
-                    Featured
+                    80 €
                   </p>
                 </div>
               </div>
@@ -328,52 +235,22 @@ export default function Discount() {
                     tabindex="0"
                     class="focus:outline-none text-lg font-semibold"
                   >
-                    iphone XS
+                    Accessoires
                   </h2>
                   <p
                     tabindex="0"
                     class="focus:outline-none text-xs text-gray-600 pl-5"
                   >
-                    4 days ago
+                    90 days ago
                   </p>
                 </div>
                 <p
                   tabindex="0"
                   class="focus:outline-none text-xs text-gray-600 mt-2"
                 >
-                  The Apple iPhone XS is available in 3 colors with 64GB memory.
-                  Shoot amazing videos
+                  Bon d'achat pour un rétroviseur (voiture électrique
+                  uniquement).
                 </p>
-                <div class="flex mt-4">
-                  <div>
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      12 months warranty
-                    </p>
-                  </div>
-                  <div class="pl-2">
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      Complete box
-                    </p>
-                  </div>
-                </div>
-                <div class="flex items-center justify-between py-4">
-                  <h2
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xs font-semibold"
-                  >
-                    Bay Area, San Francisco
-                  </h2>
-                  <h3
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xl font-semibold"
-                  ></h3>
-                </div>
               </div>
             </div>
           </div>
@@ -383,7 +260,7 @@ export default function Discount() {
             <div>
               <img
                 alt="girl texting"
-                src="https://cdn.tuk.dev/assets/templates/classified/Bitmap.png"
+                src="https://cdn.domestika.org/c_limit,dpr_auto,f_auto,q_auto,w_820/v1563728558/content-items/003/137/389/CBD_SHOP_logo_RGB-02-original.jpg?1563728558"
                 class="focus:outline-none w-full h-44"
               />
             </div>
@@ -412,7 +289,7 @@ export default function Discount() {
                     tabindex="0"
                     class="focus:outline-none text-xs text-yellow-700"
                   >
-                    Featured
+                    200 €
                   </p>
                 </div>
               </div>
@@ -422,60 +299,29 @@ export default function Discount() {
                     tabindex="0"
                     class="focus:outline-none text-lg font-semibold"
                   >
-                    iphone XS
+                    Détente
                   </h2>
                   <p
                     tabindex="0"
                     class="focus:outline-none text-xs text-gray-600 pl-5"
                   >
-                    4 days ago
+                    0 days ago
                   </p>
                 </div>
                 <p
                   tabindex="0"
                   class="focus:outline-none text-xs text-gray-600 mt-2"
                 >
-                  The Apple iPhone XS is available in 3 colors with 64GB memory.
-                  Shoot amazing videos
+                  Bon d'achat pour des tisanes "Nuits tranquilles"
                 </p>
-                <div class="flex mt-4">
-                  <div>
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      12 months warranty
-                    </p>
-                  </div>
-                  <div class="pl-2">
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      Complete box
-                    </p>
-                  </div>
-                </div>
-                <div class="flex items-center justify-between py-4">
-                  <h2
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xs font-semibold"
-                  >
-                    Bay Area, San Francisco
-                  </h2>
-                  <h3
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xl font-semibold"
-                  ></h3>
-                </div>
               </div>
             </div>
           </div>
-          <div tabindex="0" class="focus:outline-none mx-2 w-72 xl:mb-0 mb-8">
+          <div tabindex="0" class="focus:outline-none mx-2 xl:mb-0 mb-8">
             <div>
               <img
                 alt="girl texting"
-                src="https://cdn.tuk.dev/assets/templates/classified/Bitmap.png"
+                src="https://www.fournisseurenergie.fr/wp-content/uploads/2021/11/TotalEnergies-Nouveau-Logo.jpeg"
                 class="focus:outline-none w-full h-44"
               />
             </div>
@@ -504,7 +350,7 @@ export default function Discount() {
                     tabindex="0"
                     class="focus:outline-none text-xs text-yellow-700"
                   >
-                    Featured
+                    5 €
                   </p>
                 </div>
               </div>
@@ -514,236 +360,21 @@ export default function Discount() {
                     tabindex="0"
                     class="focus:outline-none text-lg font-semibold"
                   >
-                    iphone XS
+                    Accessoires Auto
                   </h2>
                   <p
                     tabindex="0"
                     class="focus:outline-none text-xs text-gray-600 pl-5"
                   >
-                    4 days ago
+                    35 days ago
                   </p>
                 </div>
                 <p
                   tabindex="0"
                   class="focus:outline-none text-xs text-gray-600 mt-2"
                 >
-                  The Apple iPhone XS is available in 3 colors with 64GB memory.
-                  Shoot amazing videos
+                  Bon d'achat pour un sapin qui sent bon.
                 </p>
-                <div class="flex mt-4">
-                  <div>
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      12 months warranty
-                    </p>
-                  </div>
-                  <div class="pl-2">
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      Complete box
-                    </p>
-                  </div>
-                </div>
-                <div class="flex items-center justify-between py-4">
-                  <h2
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xs font-semibold"
-                  >
-                    Bay Area, San Francisco
-                  </h2>
-                  <h3
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xl font-semibold"
-                  ></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div tabindex="0" class="focus:outline-none mx-2 w-72 xl:mb-0 mb-8">
-            <div>
-              <img
-                alt="girl texting"
-                src="https://cdn.tuk.dev/assets/templates/classified/Bitmap.png"
-                class="focus:outline-none w-full h-44"
-              />
-            </div>
-            <div class="bg-white">
-              <div class="flex items-center justify-between px-4 pt-4">
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    tabindex="0"
-                    class="focus:outline-none"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="#2c3e50"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M9 4h6a2 2 0 0 1 2 2v14l-5-3l-5 3v-14a2 2 0 0 1 2 -2"></path>
-                  </svg>
-                </div>
-                <div class="bg-yellow-200 py-1.5 px-6 rounded-full">
-                  <p
-                    tabindex="0"
-                    class="focus:outline-none text-xs text-yellow-700"
-                  >
-                    Featured
-                  </p>
-                </div>
-              </div>
-              <div class="p-4">
-                <div class="flex items-center">
-                  <h2
-                    tabindex="0"
-                    class="focus:outline-none text-lg font-semibold"
-                  >
-                    iphone XS
-                  </h2>
-                  <p
-                    tabindex="0"
-                    class="focus:outline-none text-xs text-gray-600 pl-5"
-                  >
-                    4 days ago
-                  </p>
-                </div>
-                <p
-                  tabindex="0"
-                  class="focus:outline-none text-xs text-gray-600 mt-2"
-                >
-                  The Apple iPhone XS is available in 3 colors with 64GB memory.
-                  Shoot amazing videos
-                </p>
-                <div class="flex mt-4">
-                  <div>
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      12 months warranty
-                    </p>
-                  </div>
-                  <div class="pl-2">
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      Complete box
-                    </p>
-                  </div>
-                </div>
-                <div class="flex items-center justify-between py-4">
-                  <h2
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xs font-semibold"
-                  >
-                    Bay Area, San Francisco
-                  </h2>
-                  <h3
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xl font-semibold"
-                  ></h3>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div tabindex="0" class="focus:outline-none mx-2 w-72 xl:mb-0 mb-8">
-            <div>
-              <img
-                alt="girl texting"
-                src="https://cdn.tuk.dev/assets/templates/classified/Bitmap.png"
-                class="focus:outline-none w-full h-44"
-              />
-            </div>
-            <div class="bg-white">
-              <div class="flex items-center justify-between px-4 pt-4">
-                <div>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    tabindex="0"
-                    class="focus:outline-none"
-                    width="20"
-                    height="20"
-                    viewBox="0 0 24 24"
-                    stroke-width="1.5"
-                    stroke="#2c3e50"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M9 4h6a2 2 0 0 1 2 2v14l-5-3l-5 3v-14a2 2 0 0 1 2 -2"></path>
-                  </svg>
-                </div>
-                <div class="bg-yellow-200 py-1.5 px-6 rounded-full">
-                  <p
-                    tabindex="0"
-                    class="focus:outline-none text-xs text-yellow-700"
-                  >
-                    Featured
-                  </p>
-                </div>
-              </div>
-              <div class="p-4">
-                <div class="flex items-center">
-                  <h2
-                    tabindex="0"
-                    class="focus:outline-none text-lg font-semibold"
-                  >
-                    iphone XS
-                  </h2>
-                  <p
-                    tabindex="0"
-                    class="focus:outline-none text-xs text-gray-600 pl-5"
-                  >
-                    4 days ago
-                  </p>
-                </div>
-                <p
-                  tabindex="0"
-                  class="focus:outline-none text-xs text-gray-600 mt-2"
-                >
-                  The Apple iPhone XS is available in 3 colors with 64GB memory.
-                  Shoot amazing videos
-                </p>
-                <div class="flex mt-4">
-                  <div>
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      12 months warranty
-                    </p>
-                  </div>
-                  <div class="pl-2">
-                    <p
-                      tabindex="0"
-                      class="focus:outline-none text-xs text-gray-600 px-2 bg-gray-200 py-1"
-                    >
-                      Complete box
-                    </p>
-                  </div>
-                </div>
-                <div class="flex items-center justify-between py-4">
-                  <h2
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xs font-semibold"
-                  >
-                    Bay Area, San Francisco
-                  </h2>
-                  <h3
-                    tabindex="0"
-                    class="focus:outline-none text-indigo-700 text-xl font-semibold"
-                  ></h3>
-                </div>
               </div>
             </div>
           </div>
