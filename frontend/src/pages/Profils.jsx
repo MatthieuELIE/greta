@@ -7,12 +7,15 @@ import Chart from "chart.js/auto";
 export default function Profils() {
   return (
     <div className="ProfilsPage">
-      <div className="flex flex-row mb-12 font-[300] text-roboto text-xl text-zinc-800">
+      <div className="flex flex-col mb-12 font-[300] text-roboto text-xl text-zinc-800 text-center  ">
         <Link to="/friendsboard">
           <div className="pl-4 hover:font-bold">Mes amis</div>
         </Link>
         <Link to="/achievements">
           <div className="pl-4 hover:font-bold">Mes hauts-faits</div>
+        </Link>
+        <Link to="/arbres">
+          <div className="pl-4 hover:font-bold">Adopte un arbre</div>
         </Link>
       </div>
       <div className="bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
