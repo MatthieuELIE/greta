@@ -67,10 +67,6 @@ export default function Defis() {
 
   return (
     <>
-      <h1 className="rounded-3xl text-zinc-800 text-roboto text-center p-2 my-8 text-3xl z-50 drop-shadow-md">
-        CO2 économisé : <br></br>
-        <span className="font-[900] text-4xl text-emerald-400">{count}</span> kg
-      </h1>
       <div className="mt-4 bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
         <h2 className="text-3xl font-[700] text-left ml-8 pb-1 text-zinc-800">
           Quête de la semaine 🌿
@@ -93,6 +89,11 @@ export default function Defis() {
           </div>
         </div>
       </div>
+      <h1 className="rounded-3xl text-zinc-800 text-roboto text-center p-2 my-8 text-3xl z-50">
+        CO2 économisé : <br></br>
+        <span className="font-[900] text-4xl text-emerald-400">{count}</span> kg
+        <br></br> cette semaine
+      </h1>
       <h2 className="text-roboto text-3xl font-[700] text-left ml-14 text-zinc-800">
         Quêtes du jour
       </h2>
