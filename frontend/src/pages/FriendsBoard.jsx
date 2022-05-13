@@ -44,7 +44,7 @@ export default function FriendBoard() {
           <div className="pl-4 hover:font-bold">Mes hauts-faits</div>
         </Link>
       </div>
-      <h1 className="my-8 text-left ml-12 text-zinc-800 text-4xl text-roboto font-[400]">
+      <h1 className="mb-24 text-left ml-12 text-zinc-800 text-4xl text-roboto font-[400]">
         Mes amis
       </h1>
       <Link to="/graphic">
