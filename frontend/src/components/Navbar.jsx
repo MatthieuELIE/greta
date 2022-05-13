@@ -17,15 +17,15 @@ export default function Navbar() {
             <h2>Accueil</h2>
           </div>
         </Link>
-        <div className="py-4 text-zinc-700 text-3xl text-roboto font-[400]">
+        <div className="py-4 text-zinc-700 text-2xl text-roboto font-[400]">
           <h2>|</h2>
         </div>
         <Link to="/impact">
           <div className="mx-3 py-4 text-zinc-700 hover:cursor-pointer text-2xl text-roboto font-[900] hover:text-lime-400">
-            Mon empreinte
+            Empreinte
           </div>
         </Link>
-        <div className="py-4 text-zinc-700 text-3xl text-roboto font-[400]">
+        <div className="py-4 text-zinc-700 text-2xl text-roboto font-[400]">
           <h2>|</h2>
         </div>
         <Link to="/discount">
