@@ -5,9 +5,6 @@ export default function AchievementsPage() {
   return (
     <>
       <div className="flex flex-row mb-12 font-[300] text-roboto text-2xl text-zinc-800">
-        <Link to="/impact">
-          <div className="pl-4 hover:font-bold">Mon empreinte</div>
-        </Link>
         <Link to="/friendsboard">
           <div className="pl-4 hover:font-bold">Mes amis</div>
         </Link>
