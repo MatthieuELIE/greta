@@ -37,6 +37,7 @@ export default function FriendBoard() {
         <Link to="/impact">
           <div className="pl-4 hover:font-bold">Mon empreinte</div>
         </Link>
+
         <Link to="/friendsboard">
           <div className="pl-4 hover:font-bold">Mes amis</div>
         </Link>
