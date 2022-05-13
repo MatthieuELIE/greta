@@ -12,6 +12,7 @@ import Reco from "@pages/Reco";
 import Maison from "@pages/Maison";
 import Discount from "@pages/Discount";
 import Graphic from "@pages/Graphique";
+import Arbres from "@pages/Arbres";
 
 import "./App.css";
 import "./index.css";
@@ -31,6 +32,7 @@ function App() {
             <Route path="/account" element={<Account />} />
             <Route path="/discount" element={<Discount />} />
             <Route path="/reco" element={<Reco />} />
+            <Route path="/arbres" element={<Arbres />}/>
             <Route path="/graphique" element={<Graphic />} />
             <Route path="/maison" element={<Maison />} />
           </Routes>
