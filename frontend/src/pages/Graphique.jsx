@@ -6,7 +6,7 @@ export default function Graphic() {
     <>
       <div class="h-full py-6 px-6 rounded-xl border border-gray-200 bg-white">
         <h5 class="text-2xl text-gray-700 font-bold">
-          Les économies
+          Les économies de CO2
         </h5>
         <div class="my-8">
           <h1 class="text-xl text-gray-700">

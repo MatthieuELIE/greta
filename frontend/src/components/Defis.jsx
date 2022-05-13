@@ -6,7 +6,7 @@ import {
   dailyQuest,
   randomQuest,
   getRandomResources,
-} from "../services/api";
+} from "@services/api"
 
 export default function Defis() {
   const [count, setCount] = useState(36);
