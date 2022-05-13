@@ -6,10 +6,13 @@ export default function AchievementsPage() {
     <>
       <div className="flex flex-col mb-12 font-[300] text-roboto text-xl text-zinc-800 text-center  ">
         <Link to="/friendsboard">
-          <div className="pl-4 hover:font-bold">Mes amis</div>
+          <div className="pl-4 hover:scale-105">Mes amis</div>
         </Link>
         <Link to="/achievements">
-          <div className="pl-4 hover:font-bold">Mes hauts-faits</div>
+          <div className="pl-4 font-bold">Mes hauts-faits</div>
+        </Link>
+        <Link to="/arbres">
+          <div className="pl-4 hover:scale-105">Adopte un arbre</div>
         </Link>
         <Link to="/arbres">
           <div className="pl-4 hover:font-bold">Adopte un arbre</div>
@@ -17,9 +20,6 @@ export default function AchievementsPage() {
       </div>
       <div className="my-8">
         <div className="flex flex-col items-center">
-          <h1 className="my-8 text-center font-bold text-4xl">
-            Mes Hauts-Faits :
-          </h1>
           <div className="px-10 mx-auto container align-middle">
             <div className="grid grid-cols-1 gap-2 w-[95%] mx-auto">
               <div className="shadow rounded-lg py-3 px-5 bg-white">

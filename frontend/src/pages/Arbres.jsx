@@ -1,18 +1,19 @@
+import { Link } from "react-router-dom";
 import avatar from "../assets/avatar.png";
 import { Link } from "react-router-dom";
 
 export default function Arbres() {
   return (
     <div>
-      <div className="flex flex-col mb-12 font-[300] text-roboto text-xl text-zinc-800 text-center">
+      <div className="flex flex-col mb-12 font-[300] text-roboto text-xl text-zinc-800 text-center  ">
         <Link to="/friendsboard">
-          <div className="pl-4 hover:font-bold">Mes amis</div>
+          <div className="pl-4 hover:scale-105">Mes amis</div>
         </Link>
         <Link to="/achievements">
-          <div className="pl-4 hover:font-bold">Mes hauts-faits</div>
+          <div className="pl-4 hover:scale-105">Mes hauts-faits</div>
         </Link>
         <Link to="/arbres">
-          <div className="pl-4 hover:font-bold">Adopte un arbre</div>
+          <div className="pl-4 font-bold">Adopte un arbre</div>
         </Link>
       </div>
       <div className="mt-4 bg-zinc-100 mx-auto w-[90%] pb-8 pt-8 rounded-3xl text-roboto mb-12">
@@ -49,6 +50,24 @@ export default function Arbres() {
           <h4 className="text-xl text-center pb-2 text-zinc-800">💚 1 semaine d'oxygène généré</h4>
           <h4 className="text-xl text-center pb-2 text-zinc-800">👏 2 heures de travail crées</h4>
 
+          <h3 className="text-2xl font-[700] text-left pb-1 text-zinc-800">
+            Votre contribution{" "}
+          </h3>
+          <h4 className="text-lxl  text-left ml-8 pb-1 text-zinc-800">
+            🌳 2 arbres planté : félicitation !
+          </h4>
+          <h4 className="text-lxl text-left ml-8 pb-1 text-zinc-800">
+            ☁️ 13,5 tonnes de co2 stockés
+          </h4>
+          <h4 className="text-lxl text-left ml-8 pb-1 text-zinc-800">
+            🐦 1 abris pour animaux créés
+          </h4>
+          <h4 className="text-lxl text-left ml-8 pb-1 text-zinc-800">
+            💚1 semaine d'oxygène généré
+          </h4>
+          <h4 className="text-lxl text-left ml-8 pb-1 text-zinc-800">
+            👏2 heures de travail crées
+          </h4>
         </div>
       </div>
     </div>
