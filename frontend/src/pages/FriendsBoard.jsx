@@ -33,7 +33,6 @@ export default function FriendBoard() {
   console.log(users);
   return (
     <div>
-
       <div className="flex flex-col mb-12 font-[300] text-roboto text-xl text-zinc-800 text-center  ">
         <Link to="/friendsboard">
           <div className="pl-4 font-bold">Mes amis</div>
@@ -43,9 +42,6 @@ export default function FriendBoard() {
         </Link>
         <Link to="/arbres">
           <div className="pl-4 hover:scale-105">Adopte un arbre</div>
-        </Link>
-        <Link to="/arbres">
-          <div className="pl-4 hover:font-bold">Adopte un arbre</div>
         </Link>
       </div>
       <Link to="/graphique">
