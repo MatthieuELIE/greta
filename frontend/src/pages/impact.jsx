@@ -17,9 +17,6 @@ export default function Impact() {
         </Link>
       </div>
       <div class="px-6 pt-6 2xl:container">
-        <h1 className="text-3xl font-[700] text-left ml-8 pb-1 text-zinc-800">
-          Mon impact
-        </h1>
         <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           <div class="md:col-span-2 lg:col-span-1">
             <div class="h-full py-8 px-6 space-y-6 rounded-xl border border-gray-200 bg-white">

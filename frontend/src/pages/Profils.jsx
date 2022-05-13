@@ -4,7 +4,6 @@ import { Bar, Line } from "react-chartjs-2";
 import { Link } from "react-router-dom";
 import Chart from "chart.js/auto";
 
-
 export default function Profils() {
   return (
     <div className="ProfilsPage">

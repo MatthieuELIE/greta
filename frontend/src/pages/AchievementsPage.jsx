@@ -4,10 +4,14 @@ import { Link } from "react-router-dom";
 export default function AchievementsPage() {
   return (
     <>
+<<<<<<< HEAD
       <div className="flex flex-row mb-12 font-[300] text-roboto text-xl text-zinc-800">
         <Link to="/impact">
           <div className="pl-4 hover:font-bold">Mon empreinte</div>
         </Link>
+=======
+      <div className="flex flex-row mb-12 font-[300] text-roboto text-2xl text-zinc-800">
+>>>>>>> a15a46a299450bd990360d709fc400a69f0f94f3
         <Link to="/friendsboard">
           <div className="pl-4 hover:font-bold">Mes amis</div>
         </Link>
