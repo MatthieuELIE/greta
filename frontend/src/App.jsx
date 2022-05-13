@@ -9,6 +9,7 @@ import Profils from "@pages/Profils";
 import Impact from "@pages/Impact";
 import Account from "@pages/Account";
 import Reco from "@pages/Reco";
+import Maison from "@pages/Maison";
 import Discount from "@pages/Discount";
 import Graphic from "@pages/graphique";
 
@@ -31,6 +32,7 @@ function App() {
             <Route path="/discount" element={<Discount />} />
             <Route path="/reco" element={<Reco />} />
             <Route path="/graphic" element={<Graphic />} />
+            <Route path="/maison" element={<Maison />}/>
           </Routes>
         </main>
         <Footer />
