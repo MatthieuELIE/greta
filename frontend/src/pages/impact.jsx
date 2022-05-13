@@ -5,7 +5,7 @@ import "../App.css";
 export default function Impact() {
   return (
     <>
-      <div className="flex flex-row mb-12 font-[300] text-roboto text-2xl text-zinc-800">
+      <div className="flex flex-row mb-12 font-[300] text-roboto text-xl text-zinc-800">
         <Link to="/impact">
           <div className="pl-4 hover:font-bold">Mon empreinte</div>
         </Link>
