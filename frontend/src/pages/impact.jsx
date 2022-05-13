@@ -41,12 +41,13 @@ export default function Impact() {
           <div className="absolute right-56 py-0.5 px-1 bg-red-400 rounded-3xl z-50 font-[700]">{counterGmail}</div>
           <img className="mx-auto mb-12 mt-4" src="./src/assets/gmail.png" width="100" />
         </div>
-        <p className="text-roboto my-2 pl-8">CO2 consommé depuis l'ouverture de la page :</p>
+        <p className="text-roboto my-2 pl-8">CO2 consommé depuis ce matin :</p>
         <div className="absolute mx-8 h-6 w-[20%] rounded-3xl z-10 bg-gradient-to-r from-red-300 to-red-600"></div>
         <div className="text-roboto mx-8 h-6 w-100 top-4 rounded-3xl z-50 bg-zinc-200 text-right pr-4 font-[900] text-zinc-800">
           {counter} g
         </div>
-        <h2 className="text-roboto text-3xl my-4 font-[700] text-left ml-8 pb-1 text-zinc-800">
+        <p className="text-center my-8 text-roboto text-xl font-[900]">Pense à archiver tes mails !</p>
+        <h2 className="text-roboto text-3xl my-4 font-[700] text-left ml-8 pb-1 text-zinc-800 mt-16">
           Ma voiture
         </h2>
         <div>
@@ -72,7 +73,7 @@ export default function Impact() {
         </h2>
         <div>
           <div className="border border-black border-4 rounded-xl">
-          <img src="./src/assets/maison.png" width="500"/>
+            <img src="./src/assets/maison.png" width="500" />
           </div>
           <p className="text-roboto my-2 pl-8">Consommation de CO2 par jour :</p>
           <div className="absolute mx-8 h-6 w-[52%] rounded-3xl z-10 bg-gradient-to-r from-red-400 to-red-600"></div>
