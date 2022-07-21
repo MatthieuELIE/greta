@@ -8,7 +8,7 @@
     "dev": "concurrently -n front,back -c green,yellow -t \"HH:mm:ss\" -p \"{name} {time}\" \"npm --prefix ./frontend run dev\" \"npm --prefix ./backend run dev\"",
     "dev-front": "npm --prefix ./frontend run dev",
     "dev-back": "npm --prefix ./backend run dev",
-    "build": "vite build"
+    "build": "npm run build"
   },
   "keywords": [],
   "author": "Wild Code School",
